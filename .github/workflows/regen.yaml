@@ -1,0 +1,27 @@
+name: Regen source files and crowdin.yml
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - repos.yaml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  regen-crowdin-config:
+    runs-on: ubuntu-slim
+
+    steps:
+      - uses: actions/checkout@v6
+      - uses: astral-sh/setup-uv@v7
+      - env:
+          X_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: uv run main.py
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: Automatic translation import
+          commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
