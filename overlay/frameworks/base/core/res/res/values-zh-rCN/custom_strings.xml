@@ -4,12 +4,12 @@
     <string name="alert_slider_state_path"></string>
     <string name="alert_slider_uevent_match_path"></string>
     <!-- Charging speed strings -->
-    <string name="charging_speed">Charging speed</string>
-    <string name="charging_speed_slow">Slow</string>
-    <string name="charging_speed_fast">Fast</string>
-    <string name="charging_speed_super_fast">Super fast</string>
+    <string name="charging_speed">快速充电</string>
+    <string name="charging_speed_slow">充电速度慢</string>
+    <string name="charging_speed_fast">充电速度快</string>
+    <string name="charging_speed_super_fast">极快</string>
     <!-- LiveDisplay strings -->
-    <string name="live_display_auto">Automatic</string>
+    <string name="live_display_auto">实时显示自动</string>
     <string name="live_display_auto_summary">Automatically adjust color temperature of screen after sunset and sunrise</string>
     <string name="live_display_off">Off</string>
     <string name="live_display_off_summary">Disable all adjustments</string>
