@@ -106,7 +106,7 @@
     <string name="local_update_import_install">Install</string>
     <string name="check_for_update">Check for update</string>
     <string name="check_for_update_failed">Failed to check for update</string>
-    <string name="system_up_to_date">Your system is up to date</string>
+    <string name="system_up_to_date">Sistem anda sudah diperbarui</string>
     <string name="system_update_available">System update available</string>
     <string name="checking_for_update">Checking for system update\u2026</string>
     <string name="system_update_downloading">Downloading system update</string>
