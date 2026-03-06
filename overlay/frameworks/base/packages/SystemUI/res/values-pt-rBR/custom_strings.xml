@@ -19,22 +19,22 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Status bar - icons -->
-    <string name="status_bar_icons_title">Status bar icons</string>
+    <string name="status_bar_icons_title">Ícones da barra de status</string>
     <!-- Label for area where tiles can be added to the qs panel -->
-    <string name="drag_or_tap_to_add_tiles">Hold &amp; drag or tap to add tiles</string>
+    <string name="drag_or_tap_to_add_tiles">Segure &amp; arraste ou toque para adicionar blocos</string>
     <!-- Custom QS tiles -->
     <!-- Ambient display QS tile -->
-    <string name="quick_settings_ambient_display_label">Ambient display</string>
-    <string name="accessibility_quick_settings_ambient_display_off">Ambient display off.</string>
-    <string name="accessibility_quick_settings_ambient_display_on">Ambient display on.</string>
+    <string name="quick_settings_ambient_display_label">Tela ambiente</string>
+    <string name="accessibility_quick_settings_ambient_display_off">Tela ambiente desativada.</string>
+    <string name="accessibility_quick_settings_ambient_display_on">Tela ambiente ativada.</string>
     <!-- AOD QS tile -->
     <string name="quick_settings_aod_label">AOD</string>
-    <string name="quick_settings_aod_off_powersave_label">AOD off\nBattery saver</string>
+    <string name="quick_settings_aod_off_powersave_label">Tela ambiente desativada\nEconomia de bateria</string>
     <!-- Autobrightness tile -->
-    <string name="quick_settings_autobrightness_label">Auto brightness</string>
+    <string name="quick_settings_autobrightness_label">Brilho automático</string>
     <!-- Caffeine QS tile -->
-    <string name="quick_settings_caffeine_label">Caffeine</string>
-    <string name="accessibility_quick_settings_caffeine_off">Caffeine off.</string>
+    <string name="quick_settings_caffeine_label">Cafeína</string>
+    <string name="accessibility_quick_settings_caffeine_off">Cafeína desativada.</string>
     <string name="accessibility_quick_settings_caffeine_on">Caffeine on.</string>
     <!-- Heads up QS tile -->
     <string name="quick_settings_heads_up_label">Heads up</string>
