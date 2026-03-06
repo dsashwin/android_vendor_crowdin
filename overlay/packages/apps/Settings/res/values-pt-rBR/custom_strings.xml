@@ -19,78 +19,78 @@
     <string name="keyboard_extras_title">Extras</string>
     <string name="advanced_keyboard_settings_title">Advanced settings</string>
     <!-- Android debugging as root -->
-    <string name="adb_enable_root">Rooted debugging</string>
-    <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
+    <string name="adb_enable_root">Depuração como superusuário</string>
+    <string name="adb_enable_summary_root">Permitir a depuração do Android como root</string>
     <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Use VPN for connected devices</string>
-    <string name="tethering_allow_vpn_upstreams_summary">When this device is using a VPN, all devices connected to the hotspot will use the same VPN</string>
+    <string name="tethering_allow_vpn_upstreams_title">Usar VPN para dispositivos conectados</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Ao usar uma VPN nesse dispositivo, todos os dispositivos conectados no ponto de acesso usarão ela também</string>
     <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
-    <string name="assisted_gps">Use assisted GPS</string>
+    <string name="assisted_gps">Usar GPS assistido</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <string name="assisted_gps_summary">Baixar dados de assistência por satélite através da internet, o que pode melhorar muito o desempenho da inicialização do GPS. Para chamadas de emergência, o GPS assistido é sempre permitido.</string>
     <!-- Battery Info: Technology -->
-    <string name="battery_technology">Technology</string>
+    <string name="battery_technology">Tecnologia</string>
     <!-- Battery Info: Health -->
-    <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health">Saúde</string>
+    <string name="battery_health_good">Boa</string>
+    <string name="battery_health_overheat">Superaquecimento</string>
+    <string name="battery_health_dead">Morta</string>
+    <string name="battery_health_over_voltage">Alta tensão</string>
+    <string name="battery_health_unspecified_failure">Falha não especificada</string>
+    <string name="battery_health_cold">Fria</string>
+    <string name="battery_health_unknown">Desconhecida</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature">Temperatura</string>
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage">Tensão</string>
     <!-- Battery Info: Charge Counter -->
     <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity">Capacidade projetada</string>
     <string name="battery_design_capacity_summary">%1$d mAh</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity">Capacidade máxima</string>
     <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
     <!-- Warning message for the sd card setup -->
-    <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
+    <string name="storage_warning_internal">Aviso: Esta opção pode não funcionar corretamente ou levar a perda de dados, portanto, não é recomendada!</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <string name="show_dev_countdown_cm">{count, plural,
-      =1      {You are now # step away from enabling development settings.}
-      other   {You are now # steps away from enabling development settings.}
+      one {}=1      {Você está a um passo # de ativar as configurações de desenvolvedor.}
+      other   {Você está a um passo # de ativar as configurações de desenvolvedor.}
     }</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on_cm">You have enabled development settings!</string>
+    <string name="show_dev_on_cm">Você ativou as configurações de desenvolvedor!</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already_cm">No need, you have already enabled development settings.</string>
+    <string name="show_dev_already_cm">Não é preciso, você já ativou as configurações de desenvolvedor.</string>
     <!-- Copy to clipboard -->
-    <string name="copied_to_clipboard">Copied to clipboard</string>
-    <string name="longpress_to_clipboard">Long-press to copy</string>
+    <string name="copied_to_clipboard">Copiado para a área de transferência</string>
+    <string name="longpress_to_clipboard">Pressione e segure para copiar</string>
     <!-- Radio Info -->
-    <string name="radio_info_title">Radio info</string>
+    <string name="radio_info_title">Informação de rádio</string>
     <!-- Heads-up -->
-    <string name="heads_up_notifications_enabled_title">Heads-up</string>
-    <string name="heads_up_notifications_enabled_summary">Display priority notifications in a small floating window</string>
+    <string name="heads_up_notifications_enabled_title">Notificações flutuantes</string>
+    <string name="heads_up_notifications_enabled_summary">Mostrar notificações prioritárias numa pequena janela flutuante</string>
     <!-- Black theme for dark mode -->
-    <string name="berry_black_theme_title">Pure black</string>
-    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
+    <string name="berry_black_theme_title">Preto puro</string>
+    <string name="berry_black_theme_summary">Usar preto puro como cor de fundo</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_summary">Otimiza sua tela com base na hora do dia e nas condições do ambiente para melhorar a legibilidade e reduzir o cansaço visual</string>
+    <string name="live_display_mode">Modo da tela</string>
+    <string name="live_display_color_temperature_title">Temperatura da cor</string>
+    <string name="live_display_color_temperature_summary">Dia: <xliff:g id="day_temperature">%1$d</xliff:g>K Noite: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
-    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_anti_flicker_title">Anti flicker</string>
-    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
-    <string name="live_display_low_power_title">Reduce power consumption</string>
-    <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
-    <string name="live_display_enhance_color_title">Enhance colors</string>
-    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
-    <string name="live_display_color_profile_title">Color profile</string>
-    <string name="live_display_color_profile_standard_title">Standard</string>
+    <string name="live_display_day">Dia</string>
+    <string name="live_display_night">Noite</string>
+    <string name="live_display_outdoor_mode_title">Modo ambiente externo automático</string>
+    <string name="live_display_outdoor_mode_summary">Aumente o brilho e a saturação automaticamente sob luz solar intensa</string>
+    <string name="live_display_anti_flicker_title">Modo anti-oscilação</string>
+    <string name="live_display_anti_flicker_summary">Evite tremulação extensa e reduza o cansaço visual em condições de pouca luz. Isso pode degradar a precisão das cores e afetar a forma como alguns itens são exibidos.</string>
+    <string name="live_display_low_power_title">Reduzir consumo de energia</string>
+    <string name="live_display_low_power_summary">Ajustar a tela para menor consumo de energia sem degradação</string>
+    <string name="live_display_enhance_color_title">Realçar cores</string>
+    <string name="live_display_enhance_color_summary">Melhorar a intensidade da cor de tons de pele, cenários e outras imagens</string>
+    <string name="live_display_color_profile_title">Perfil de cor</string>
+    <string name="live_display_color_profile_standard_title">Padrão</string>
     <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
     <string name="live_display_color_profile_natural_title">Natural</string>
     <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
@@ -146,69 +146,69 @@
     <string name="charging_control_mode_custom_summary">Set a target time to full charge</string>
     <string name="charging_control_mode_limit_title">Limit charging</string>
     <string name="charging_control_mode_limit_summary">Limit charging to a certain percentage</string>
-    <string name="charging_control_start_time_title">Start time</string>
-    <string name="charging_control_start_time_summary">Charging control activates when you start charging after %s</string>
-    <string name="charging_control_target_time_title">Target time to full charge</string>
-    <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
-    <string name="charging_control_limit_title">Limit</string>
-    <string name="reset">Reset</string>
+    <string name="charging_control_start_time_title">Horário de início</string>
+    <string name="charging_control_start_time_summary">O controle de carregamento é ativado quando você começa a carregar após %s</string>
+    <string name="charging_control_target_time_title">Horário de término</string>
+    <string name="charging_control_target_time_summary">A bateria estará totalmente carregada às %s</string>
+    <string name="charging_control_limit_title">Limite</string>
+    <string name="reset">Redefinir</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localize o sensor de impressão digital na parte frontal do seu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localize o sensor de impressão digital na parte frontal do seu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localize o sensor de impressão digital na parte frontal do seu smartphone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localize o sensor de impressão digital na parte traseira do seu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localize o sensor de impressão digital na parte traseira do seu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localize o sensor de impressão digital na parte traseira do seu telefone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Localize o sensor de impressão digital na parte lateral do seu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Localize o sensor de impressão digital na lateral do seu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Localize o sensor de impressão digital na parte lateral do seu telefone.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touch the sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touch the sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touch the sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touch the sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Toque no sensor na parte frontal do seu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Toque no sensor na parte frontal do seu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Localize o sensor de impressão digital na parte frontal do seu telefone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Toque no sensor na parte traseira do seu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Toque no sensor na parte traseira do seu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Toque no sensor na parte traseira do seu telefone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Toque no sensor na parte lateral do seu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Toque no sensor na parte lateral do seu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Toque no sensor na lateral do seu telefone.</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">Escolha um tamanho para o padrão</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">Mostrar erro de padrão</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">Mostrar pontos do padrão</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation settings</string>
-    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
-    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">Configurações de rotação</string>
+    <string name="display_rotation_enabled">A rotação automática está ativada</string>
+    <string name="display_rotation_disabled">A rotação automática está desativada</string>
+    <string name="display_rotation_unit">graus</string>
+    <string name="display_rotation_category_title">Modos de rotação</string>
+    <string name="display_rotation_0_title">0 graus</string>
+    <string name="display_rotation_90_title">90 graus</string>
+    <string name="display_rotation_180_title">180 graus</string>
+    <string name="display_rotation_270_title">270 graus</string>
     <!-- One shot automatic brightness -->
-    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
-    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+    <string name="auto_brightness_one_shot_title">Brilho automático ao ligar a tela</string>
+    <string name="auto_brightness_one_shot_summary">O ajuste de brilho ocorrerá somente no momento em que a tela for ligada</string>
     <!-- PIN scramble -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Embaralhar layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
     <!-- Smart 5G -->
-    <string name="smart_5g_title">Smart 5G</string>
-    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <string name="smart_5g_title">5G inteligente</string>
+    <string name="smart_5g_summary">Alternar automaticamente entre 5G e 4G para reduzir o consumo de bateria</string>
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Power menu</string>
-    <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
+    <string name="lockscreen_enable_power_menu_title">Menu de energia</string>
+    <string name="lockscreen_enable_power_menu_summary">Permitir acessar o menu de energia na tela de bloqueio</string>
     <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Controle de reprodução</string>
+    <string name="volume_button_music_control_summary">Quando a tela está desligada, manter pressionadas as teclas de volume irá pular as faixas de música</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
-    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <string name="prevent_ringing_option_cycle">Alternar entre os modos</string>
+    <string name="prevent_ringing_option_cycle_summary">Ativado (alternar entre os modos)</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="wake_when_plugged_or_unplugged_title">Acordar ao plugar</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Ligar a tela quando conectar ou desconectar uma fonte de energia</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignore window secure flags</string>
     <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
@@ -275,32 +275,32 @@
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Screenshot sound</string>
     <!-- Global Actions -->
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
-    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+    <string name="global_actions_advanced_reboot_title">Ativar reinicialização avançada</string>
+    <string name="global_actions_advanced_reboot_summary">Mostrar as opções de recovery e bootloader no menu de energia</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">Deslize para capturar a tela</string>
+    <string name="three_finger_gesture_summary">Deslize para baixo com três dedos para capturar a tela</string>
     <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Quick torch</string>
-    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
+    <string name="power_button_torch_title">Lanterna rápida</string>
+    <string name="power_button_torch_summary">Quando a tela estiver desligada, segure o botão liga/desliga para ativar a lanterna.</string>
     <!-- Status bar - Network Traffic -->
-    <string name="network_traffic_settings_title">Network traffic monitor</string>
-    <string name="network_traffic_settings_summary">Show current network traffic levels in the status bar</string>
-    <string name="network_traffic_mode_title">Display mode</string>
-    <string name="network_traffic_mode_disable">Disabled</string>
-    <string name="network_traffic_mode_up">Upload only</string>
-    <string name="network_traffic_mode_down">Download only</string>
-    <string name="network_traffic_mode_all">Upload and download</string>
-    <string name="network_traffic_autohide">Auto hide</string>
-    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
-    <string name="network_traffic_units_title">Traffic measurement units</string>
-    <string name="network_traffic_units_kilobits">Kilobits per second (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabits per second (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobytes per second (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
-    <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
+    <string name="network_traffic_settings_title">Monitor de tráfego de rede</string>
+    <string name="network_traffic_settings_summary">Mostrar na barra de status os níveis de tráfego de rede atual</string>
+    <string name="network_traffic_mode_title">Modo da tela</string>
+    <string name="network_traffic_mode_disable">Desativado</string>
+    <string name="network_traffic_mode_up">Apenas upload</string>
+    <string name="network_traffic_mode_down">Apenas download</string>
+    <string name="network_traffic_mode_all">Upload e download</string>
+    <string name="network_traffic_autohide">Ocultar automaticamente</string>
+    <string name="network_traffic_autohide_summary">Ocultar o monitor de tráfego quando não houver atividade</string>
+    <string name="network_traffic_units_title">Unidades de medida do tráfego</string>
+    <string name="network_traffic_units_kilobits">Kilobits por segundo (kb/s)</string>
+    <string name="network_traffic_units_megabits">Megabits por segundo (Mb/s)</string>
+    <string name="network_traffic_units_kilobytes">Kilobytes por segundo (kB/s)</string>
+    <string name="network_traffic_units_megabytes">Megabytes por segundo (MB/s)</string>
+    <string name="network_traffic_units_auto">Automático (kB/s ou MB/s)</string>
     <!-- Volume dialog position -->
-    <string name="volume_panel_category_title">Volume panel</string>
-    <string name="volume_panel_on_left_title">Left volume panel</string>
-    <string name="volume_panel_on_left_summary">Show volume panel on the left side of the screen</string>
+    <string name="volume_panel_category_title">Painel do Volume</string>
+    <string name="volume_panel_on_left_title">Painel de volume à esquerda</string>
+    <string name="volume_panel_on_left_summary">Exibir painel de volume no lado esquerdo da tela</string>
 </resources>
