@@ -49,35 +49,35 @@
     <string name="battery_design_capacity">Design capacity</string>
     <string name="battery_design_capacity_summary">%1$d mAh</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity">Capacità massima</string>
     <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
     <!-- Warning message for the sd card setup -->
-    <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
+    <string name="storage_warning_internal">Attenzione: questa opzione potrebbe non funzionare correttamente o portare alla perdita di dati e quindi non è raccomandata!</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <string name="show_dev_countdown_cm">{count, plural,
-      =1      {You are now # step away from enabling development settings.}
-      other   {You are now # steps away from enabling development settings.}
+      =1      {Sei a # passo dall\'attivare le opzioni sviluppatore.}
+      other   {Sei a # passi dall\'attivare le opzioni sviluppatore.}
     }</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on_cm">You have enabled development settings!</string>
+    <string name="show_dev_on_cm">Hai attivato le opzioni sviluppatore!</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already_cm">No need, you have already enabled development settings.</string>
+    <string name="show_dev_already_cm">Non è necessario, hai già attivato le opzioni sviluppatore.</string>
     <!-- Copy to clipboard -->
-    <string name="copied_to_clipboard">Copied to clipboard</string>
-    <string name="longpress_to_clipboard">Long-press to copy</string>
+    <string name="copied_to_clipboard">Copiato negli appunti</string>
+    <string name="longpress_to_clipboard">Tieni premuto per copiare</string>
     <!-- Radio Info -->
-    <string name="radio_info_title">Radio info</string>
+    <string name="radio_info_title">Informazioni radio</string>
     <!-- Heads-up -->
-    <string name="heads_up_notifications_enabled_title">Heads-up</string>
-    <string name="heads_up_notifications_enabled_summary">Display priority notifications in a small floating window</string>
+    <string name="heads_up_notifications_enabled_title">Notifiche a comparsa</string>
+    <string name="heads_up_notifications_enabled_summary">Mostra le notifiche prioritarie in una piccola finestra fluttuante</string>
     <!-- Black theme for dark mode -->
-    <string name="berry_black_theme_title">Pure black</string>
-    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
+    <string name="berry_black_theme_title">Nero assoluto</string>
+    <string name="berry_black_theme_summary">Sfondo nero assoluto per tema scuro</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_summary">Ottimizza lo schermo in base all’ora del giorno e alle condizioni ambientali per migliorare la leggibilità e ridurre l’affaticamento visivo</string>
+    <string name="live_display_mode">Modalità schermo</string>
+    <string name="live_display_color_temperature_title">Temperatura colore</string>
+    <string name="live_display_color_temperature_summary">Giorno: <xliff:g id="day_temperature">%1$d</xliff:g>K Notte: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">Day</string>
     <string name="live_display_night">Night</string>
