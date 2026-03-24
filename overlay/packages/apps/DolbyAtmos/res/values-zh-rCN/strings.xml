@@ -7,7 +7,7 @@
     <!-- Dolby Atmos -->
     <string name="dolby_title">杜比全景音</string>
     <string name="dolby_enable">使用杜比全景音</string>
-    <string name="dolby_profile_title">选择音效模式</string>
+    <string name="dolby_profile_title">选择一个配置文件</string>
     <string name="dolby_preset">图形均衡器</string>
     <string name="dolby_off">关闭</string>
     <string name="dolby_on">开启</string>
@@ -20,11 +20,11 @@
     <string name="dolby_category_settings">设置</string>
     <string name="dolby_bass_enhancer">低音增强器</string>
     <string name="dolby_dialogue_enhancer">对白增强器</string>
-    <string name="dolby_spk_virtualizer">扬声器虚拟环绕</string>
-    <string name="dolby_hp_virtualizer">耳机虚拟环绕</string>
+    <string name="dolby_spk_virtualizer">扬声器虚拟化</string>
+    <string name="dolby_hp_virtualizer">耳机虚拟化</string>
     <string name="dolby_stereo_widening">立体声扩展</string>
     <string name="dolby_volume_leveler">音量均衡器</string>
-    <string name="dolby_connect_headphones">请连接耳机</string>
+    <string name="dolby_connect_headphones">连接耳机</string>
     <string name="dolby_reset_profile">恢复默认设置</string>
     <string name="dolby_reset_profile_toast">已成功重置为 %1$s 模式的设置</string>
     <!-- Dolby profiles -->
