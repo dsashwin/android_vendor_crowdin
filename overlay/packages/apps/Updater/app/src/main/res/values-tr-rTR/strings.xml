@@ -122,7 +122,7 @@
     <string name="text_download_size_unknown">Bilinmeyen</string>
     <string name="certified_prop_status">Certified properties status</string>
     <string name="certified_prop_check">Güncellemeleri denetle</string>
-    <string name="certified_prop_checking">Checking for certified properties update</string>
+    <string name="certified_prop_checking">Sertifikalı özellikler güncellemesi kontrol ediliyor</string>
     <string name="certified_prop_downloading">Sertifikalı özellik güncellemesi indiriliyor</string>
     <string name="certified_prop_download_failed">Sunucudan özellikler alınamıyor</string>
     <string name="certified_prop_available">İndir ve yükle</string>
