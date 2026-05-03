@@ -61,7 +61,12 @@
     <string name="ab_perf_mode_summary">Güncelleme işleminin önceliğini artırın. Bir güncelleme devam ederken normal kullanımı etkileyebilir.</string>
     <string name="update_recovery_summary">Derlemeden kurtarmayı otomatik olarak güncellemeyi etkinleştirin.</string>
     <string name="snack_updates_check_failed">Güncelleme kontrolü başarısız oldu. Lütfen internet bağlantınızı kontrol edin ve daha sonra tekrar deneyin.</string>
+    <!-- Downloads -->
+    <string name="downloads_header">Downloads</string>
+    <string name="menu_stream_ota">Stream updates</string>
+    <string name="menu_stream_ota_summary">Whenever possible, save time by installing updates as they download.\nDisable on unreliable network.</string>
     <string name="snack_download_failed">İndirme başarısız oldu. Lütfen internet bağlantınızı kontrol edin ve daha sonra tekrar deneyin.</string>
+    <string name="stream_download_failed_toast">Stream download failed, switching to regular download.</string>
     <string name="snack_download_verification_failed">Güncelleme doğrulaması tamamlanamadı.</string>
     <string name="snack_download_verified">İndirme tamamlandı.</string>
     <string name="snack_update_not_installable">Bu güncelleme mevcut yapının üstüne yüklenemez.</string>
