@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2024-2025 PixelOS
+     Copyright (C) 2017-2021 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -21,9 +21,27 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Depuração como superusuário</string>
     <string name="adb_enable_summary_root">Permitir a depuração do Android como root</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+    <string name="show_dev_countdown_cm">{count, plural,
+      one {}=1      {Você está a um passo # de ativar as configurações de desenvolvedor.}
+      other   {Você está a um passo # de ativar as configurações de desenvolvedor.}
+    }</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+    <string name="show_dev_on_cm">Você ativou as configurações de desenvolvedor!</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+    <string name="show_dev_already_cm">Não é preciso, você já ativou as configurações de desenvolvedor.</string>
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">Toque para dormir</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Toque duas vezes na barra de status ou na tela de bloqueio para desligar a tela</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Usar VPN para dispositivos conectados</string>
     <string name="tethering_allow_vpn_upstreams_summary">Ao usar uma VPN nesse dispositivo, todos os dispositivos conectados no ponto de acesso usarão ela também</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Embaralhar layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Preto puro</string>
+    <string name="berry_black_theme_summary">Usar preto puro como cor de fundo</string>
     <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
     <string name="assisted_gps">Usar GPS assistido</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
@@ -53,15 +71,6 @@
     <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Aviso: Esta opção pode não funcionar corretamente ou levar a perda de dados, portanto, não é recomendada!</string>
-    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
-    <string name="show_dev_countdown_cm">{count, plural,
-      one {}=1      {Você está a um passo # de ativar as configurações de desenvolvedor.}
-      other   {Você está a um passo # de ativar as configurações de desenvolvedor.}
-    }</string>
-    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on_cm">Você ativou as configurações de desenvolvedor!</string>
-    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already_cm">Não é preciso, você já ativou as configurações de desenvolvedor.</string>
     <!-- Copy to clipboard -->
     <string name="copied_to_clipboard">Copiado para a área de transferência</string>
     <string name="longpress_to_clipboard">Pressione e segure para copiar</string>
@@ -70,9 +79,6 @@
     <!-- Heads-up -->
     <string name="heads_up_notifications_enabled_title">Notificações flutuantes</string>
     <string name="heads_up_notifications_enabled_summary">Mostrar notificações prioritárias numa pequena janela flutuante</string>
-    <!-- Black theme for dark mode -->
-    <string name="berry_black_theme_title">Preto puro</string>
-    <string name="berry_black_theme_summary">Usar preto puro como cor de fundo</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Otimiza sua tela com base na hora do dia e nas condições do ambiente para melhorar a legibilidade e reduzir o cansaço visual</string>
     <string name="live_display_mode">Modo da tela</string>
@@ -191,15 +197,15 @@
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Brilho automático ao ligar a tela</string>
     <string name="auto_brightness_one_shot_summary">O ajuste de brilho ocorrerá somente no momento em que a tela for ligada</string>
-    <!-- PIN scramble -->
-    <string name="unlock_scramble_pin_layout_title">Embaralhar layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
     <!-- Smart 5G -->
     <string name="smart_5g_title">5G inteligente</string>
     <string name="smart_5g_summary">Alternar automaticamente entre 5G e 4G para reduzir o consumo de bateria</string>
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Menu de energia</string>
     <string name="lockscreen_enable_power_menu_summary">Permitir acessar o menu de energia na tela de bloqueio</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Lanterna rápida</string>
+    <string name="power_button_torch_summary">Quando a tela estiver desligada, segure o botão liga/desliga para ativar a lanterna.</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Controle de reprodução</string>
     <string name="volume_button_music_control_summary">Quando a tela está desligada, manter pressionadas as teclas de volume irá pular as faixas de música</string>
@@ -225,9 +231,6 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Tela ambiente</string>
     <string name="doze_enabled_summary">Se deve habilitar a função doze</string>
-    <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">Toque para dormir</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Toque duas vezes na barra de status ou na tela de bloqueio para desligar a tela</string>
     <!-- Refresh rate -->
     <string name="refresh_rate_title">Taxa de atualização</string>
     <string name="refresh_rate_summary_vrr_off">%d Hz</string>
@@ -280,9 +283,6 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Deslize para capturar a tela</string>
     <string name="three_finger_gesture_summary">Deslize para baixo com três dedos para capturar a tela</string>
-    <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Lanterna rápida</string>
-    <string name="power_button_torch_summary">Quando a tela estiver desligada, segure o botão liga/desliga para ativar a lanterna.</string>
     <!-- Status bar - Network Traffic -->
     <string name="network_traffic_settings_title">Monitor de tráfego de rede</string>
     <string name="network_traffic_settings_summary">Mostrar na barra de status os níveis de tráfego de rede atual</string>
@@ -299,8 +299,9 @@
     <string name="network_traffic_units_kilobytes">Kilobytes por segundo (kB/s)</string>
     <string name="network_traffic_units_megabytes">Megabytes por segundo (MB/s)</string>
     <string name="network_traffic_units_auto">Automático (kB/s ou MB/s)</string>
-    <!-- Volume dialog position -->
-    <string name="volume_panel_category_title">Painel do Volume</string>
-    <string name="volume_panel_on_left_title">Painel de volume à esquerda</string>
-    <string name="volume_panel_on_left_summary">Exibir painel de volume no lado esquerdo da tela</string>
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Clear query</string>
+    <string name="language_picker_page">Language picker page</string>
+    <string name="search_region">Search regions</string>
+    <string name="search_region_page">Search region page</string>
 </resources>
