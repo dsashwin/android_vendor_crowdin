@@ -20,8 +20,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Status bar - icons -->
     <string name="status_bar_icons_title">Durum çubuğu simgeleri</string>
-    <!-- Label for area where tiles can be added to the qs panel -->
-    <string name="drag_or_tap_to_add_tiles">Tut &amp; kare eklemek için basılı tutun ve sürükleyin veya dokunun</string>
     <!-- Custom QS tiles -->
     <!-- Ambient display QS tile -->
     <string name="quick_settings_ambient_display_label">Ortam ekranı</string>
@@ -62,15 +60,26 @@
     <string name="vpn_credentials_username">Kullanıcı Adı</string>
     <string name="vpn_credentials_password">Şifre</string>
     <string name="vpn_credentials_dialog_connect">Bağlan</string>
+    <!-- Screen record -->
+    <string name="screenrecord_lowquality_label">Daha küçük kalite</string>
+    <string name="screenrecord_lowquality_summary">Daha küçük dosya boyutu için</string>
+    <string name="screenrecord_longer_timeout_switch_label">Daha büyük dosya boyutu sınırı</string>
+    <string name="screenrecord_longer_timeout_switch_summary">Kayıt boyutunu 15 GB ile sınırlayın</string>
+    <string name="screenrecord_skip_time_label">Zamanlayıcıyı atla</string>
+    <string name="screenrecord_skip_time_summary">3 saniyelik beklemeyi kaldırın</string>
+    <string name="screenrecord_hevc_switch_label">HEVC kodlayıcı</string>
+    <string name="screenrecord_hevc_switch_summary">Daha verimli HEVC kodlayıcıyı kullanın</string>
+    <!-- Label for UI element which allows deleting the screenshot [CHAR LIMIT=30] -->
+    <string name="screenshot_delete_label">Sil</string>
+    <!-- Content description indicating that tapping the element will allow deleting the screenshot [CHAR LIMIT=NONE] -->
+    <string name="screenshot_delete_description">Ekran görüntüsünü sil</string>
     <!-- DataSwitch Tile -->
     <string name="qs_data_switch_label">Veri kartını değiştir</string>
     <string name="qs_data_switch_sim_label">SIM %d</string>
     <string name="qs_data_switch_sim_desc">SIM %d tercih edilen mobil veri SIM kartıdır</string>
     <string name="qs_data_switch_sim_transient">Switching\u2026</string>
-    <!-- Label for UI element which allows deleting the screenshot [CHAR LIMIT=30] -->
-    <string name="screenshot_delete_label">Sil</string>
-    <!-- Content description indicating that tapping the element will allow deleting the screenshot [CHAR LIMIT=NONE] -->
-    <string name="screenshot_delete_description">Ekran görüntüsünü sil</string>
+    <!-- Face unlock -->
+    <string name="face_unlock_recognizing">Yüz algılanıyor...</string>
     <!-- Advanced restart menu -->
     <!-- Button to indicate more options -->
     <string name="global_action_restart_more">Daha fazla</string>
@@ -92,19 +101,8 @@
     <string name="global_action_restart_download_progress">Restarting to download mode\u2026</string>
     <!-- Button to restart SystemUI, within the Restart Options dialog -->
     <string name="global_action_restart_systemui">Sistem arayüzü</string>
-    <!-- Label for notification action to delete a screen recording file [CHAR LIMIT=35] -->
-    <string name="screenrecord_delete_label">Sil</string>
-    <!-- A toast message shown after successfully deleting a screen recording [CHAR LIMIT=NONE] -->
-    <string name="screenrecord_delete_description">Ekran kaydı silindi</string>
-    <!-- Screen record -->
-    <string name="screenrecord_lowquality_label">Daha küçük kalite</string>
-    <string name="screenrecord_lowquality_summary">Daha küçük dosya boyutu için</string>
-    <string name="screenrecord_longer_timeout_switch_label">Daha büyük dosya boyutu sınırı</string>
-    <string name="screenrecord_longer_timeout_switch_summary">Kayıt boyutunu 15 GB ile sınırlayın</string>
-    <string name="screenrecord_skip_time_label">Zamanlayıcıyı atla</string>
-    <string name="screenrecord_skip_time_summary">3 saniyelik beklemeyi kaldırın</string>
-    <string name="screenrecord_hevc_switch_label">HEVC kodlayıcı</string>
-    <string name="screenrecord_hevc_switch_summary">Daha verimli HEVC kodlayıcıyı kullanın</string>
-    <!-- Face unlock -->
-    <string name="face_unlock_recognizing">Yüz algılanıyor...</string>
+    <!-- Flashlight Strength -->
+    <string name="flashlight_strength_title">Flashlight Strength</string>
+    <string name="flashlight_strength_turn_off">Turn off</string>
+    <string name="flashlight_strength_turn_on">Turn on</string>
 </resources>
