@@ -61,7 +61,12 @@
     <string name="ab_perf_mode_summary">Aumenta a prioridade do processo de atualização. Pode influenciar o uso normal quando uma atualização está em andamento.</string>
     <string name="update_recovery_summary">Ative para atualizar a recuperação da compilação automaticamente.</string>
     <string name="snack_updates_check_failed">Falha ao procurar por atualizações. Por favor, verifique sua conexão com a internet e tente novamente mais tarde.</string>
+    <!-- Downloads -->
+    <string name="downloads_header">Downloads</string>
+    <string name="menu_stream_ota">Stream updates</string>
+    <string name="menu_stream_ota_summary">Whenever possible, save time by installing updates as they download.\nDisable on unreliable network.</string>
     <string name="snack_download_failed">Falha ao baixar a atualização. Por favor, verifique sua conexão com a internet e tente novamente mais tarde.</string>
+    <string name="stream_download_failed_toast">Stream download failed, switching to regular download.</string>
     <string name="snack_download_verification_failed">Falha na verificação da atualização.</string>
     <string name="snack_download_verified">Download concluído.</string>
     <string name="snack_update_not_installable">Esta atualização não pode ser instalada por cima da versão atual.</string>
