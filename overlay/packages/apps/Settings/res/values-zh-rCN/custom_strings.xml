@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2024-2025 PixelOS
+     Copyright (C) 2017-2021 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -21,9 +21,27 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">以 root 身份调试</string>
     <string name="adb_enable_summary_root">允许以 root 身份运行 Android 调试</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+    <string name="show_dev_countdown_cm">{count, plural,
+      =1      {您离启用开发者选项还有 # 步。}
+      other   {您离启用开发者选项还有 # 步。}
+    }</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+    <string name="show_dev_on_cm">您现在处于开发者模式！</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+    <string name="show_dev_already_cm">您已处于开发者模式，无需进行此操作。</string>
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">双击熄屏</string>
+    <string name="status_bar_double_tap_to_sleep_summary">在状态栏或锁屏界面点按两次即可关闭屏幕</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">和已连接设备共享VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">当本设备连接至VPN时，连接到此设备热点的所有设备将共享此VPN连接</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">乱序排布</string>
+    <string name="unlock_scramble_pin_layout_summary">当解锁设备时使用乱序 PIN 布局</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">纯黑色</string>
+    <string name="berry_black_theme_summary">深色模式使用纯黑色背景</string>
     <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
     <string name="assisted_gps">使用辅助 GPS</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
@@ -53,15 +71,6 @@
     <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">警告：此选项可能无法正常工作或将导致数据丢失，不推荐使用！</string>
-    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
-    <string name="show_dev_countdown_cm">{count, plural,
-      =1      {您离启用开发者选项还有 # 步。}
-      other   {您离启用开发者选项还有 # 步。}
-    }</string>
-    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on_cm">您现在处于开发者模式！</string>
-    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already_cm">您已处于开发者模式，无需进行此操作。</string>
     <!-- Copy to clipboard -->
     <string name="copied_to_clipboard">已复制到剪贴板</string>
     <string name="longpress_to_clipboard">长按以复制</string>
@@ -70,9 +79,6 @@
     <!-- Heads-up -->
     <string name="heads_up_notifications_enabled_title">浮动通知</string>
     <string name="heads_up_notifications_enabled_summary">在小的浮动窗口中显示优先通知</string>
-    <!-- Black theme for dark mode -->
-    <string name="berry_black_theme_title">纯黑色</string>
-    <string name="berry_black_theme_summary">深色模式使用纯黑色背景</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">基于当前时间和环境条件来优化您的屏幕以改善可读性和减少视疲劳</string>
     <string name="live_display_mode">显示模式</string>
@@ -192,15 +198,15 @@
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">单次调节自适应亮度</string>
     <string name="auto_brightness_one_shot_summary">仅在点亮屏幕的那一刻调节一次亮度</string>
-    <!-- PIN scramble -->
-    <string name="unlock_scramble_pin_layout_title">乱序排布</string>
-    <string name="unlock_scramble_pin_layout_summary">当解锁设备时使用乱序 PIN 布局</string>
     <!-- Smart 5G -->
     <string name="smart_5g_title">智能 5G</string>
     <string name="smart_5g_summary">自动在 5G 和 4G 之间切换以减少电量消耗</string>
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">电源菜单</string>
     <string name="lockscreen_enable_power_menu_summary">允许在锁屏界面使用电源菜单</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">快捷手电筒</string>
+    <string name="power_button_torch_summary">屏幕关闭时，长按电源键将启用手电筒</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">媒体播放控制</string>
     <string name="volume_button_music_control_summary">屏幕关闭时，长按音量键将跳过音乐曲目</string>
@@ -226,9 +232,6 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">环境显示</string>
     <string name="doze_enabled_summary">是否启用打盹模式功能</string>
-    <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">双击熄屏</string>
-    <string name="status_bar_double_tap_to_sleep_summary">在状态栏或锁屏界面点按两次即可关闭屏幕</string>
     <!-- Refresh rate -->
     <string name="refresh_rate_title">屏幕刷新率</string>
     <string name="refresh_rate_summary_vrr_off">%d Hz</string>
@@ -281,9 +284,6 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">三指滑动截屏</string>
     <string name="three_finger_gesture_summary">三指同时下滑以截屏</string>
-    <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">快捷手电筒</string>
-    <string name="power_button_torch_summary">屏幕关闭时，长按电源键将启用手电筒</string>
     <!-- Status bar - Network Traffic -->
     <string name="network_traffic_settings_title">流量指示器</string>
     <string name="network_traffic_settings_summary">在状态栏上显示网速</string>
@@ -300,8 +300,9 @@
     <string name="network_traffic_units_kilobytes">千字节每秒 (kB/s)</string>
     <string name="network_traffic_units_megabytes">兆字节每秒 (MB/s)</string>
     <string name="network_traffic_units_auto">自动 (kB/s 或 MB/s)</string>
-    <!-- Volume dialog position -->
-    <string name="volume_panel_category_title">音量面板</string>
-    <string name="volume_panel_on_left_title">左侧音量面板</string>
-    <string name="volume_panel_on_left_summary">在屏幕左侧显示音量面板</string>
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Clear query</string>
+    <string name="language_picker_page">Language picker page</string>
+    <string name="search_region">Search regions</string>
+    <string name="search_region_page">Search region page</string>
 </resources>
