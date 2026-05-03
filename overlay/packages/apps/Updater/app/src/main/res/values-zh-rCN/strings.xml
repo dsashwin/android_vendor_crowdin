@@ -61,7 +61,12 @@
     <string name="ab_perf_mode_summary">增加更新过程的优先级。当更新进行时，可能会影响正常使用。</string>
     <string name="update_recovery_summary">启用以自动从构建中更新 Recovery。</string>
     <string name="snack_updates_check_failed">检查更新失败。 请检查您的网络连接并稍后重试。</string>
+    <!-- Downloads -->
+    <string name="downloads_header">Downloads</string>
+    <string name="menu_stream_ota">Stream updates</string>
+    <string name="menu_stream_ota_summary">Whenever possible, save time by installing updates as they download.\nDisable on unreliable network.</string>
     <string name="snack_download_failed">下载更新失败。 请检查您的网络连接并稍后重试。</string>
+    <string name="stream_download_failed_toast">Stream download failed, switching to regular download.</string>
     <string name="snack_download_verification_failed">验证更新失败。</string>
     <string name="snack_download_verified">下载完成。</string>
     <string name="snack_update_not_installable">在当前的版本上无法安装此更新。</string>
