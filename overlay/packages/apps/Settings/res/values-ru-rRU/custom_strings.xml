@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2024-2025 PixelOS
+     Copyright (C) 2017-2021 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -21,9 +21,30 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Отладка суперпользователем</string>
     <string name="adb_enable_summary_root">Разрешить запуск отладки Android с правами суперпользователя</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+    <string name="show_dev_countdown_cm">{count,plural, 
+      =1{Нажмите ещё # раз, чтобы включить возможности разработчика.}
+      one{Нажмите ещё # раз, чтобы включить возможности разработчика.}
+      few{Нажмите ещё # раза, чтобы включить возможности разработчика.}
+      many{Нажмите ещё # раз, чтобы включить возможности разработчика.}
+      other{Нажмите ещё # раза, чтобы включить возможности разработчика.}
+    }</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+    <string name="show_dev_on_cm">Вы стали разработчиком!</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+    <string name="show_dev_already_cm">Не нужно, вы уже разработчик.</string>
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">Выключение нажатием</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Дважды нажмите на строку состояния или экран блокировки, чтобы выключить экран</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Использовать VPN для подключенных устройств</string>
     <string name="tethering_allow_vpn_upstreams_summary">Когда это устройство использует VPN, все устройства, подключенные к точке доступа, будут использовать тот же VPN</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Перемешивать расположение кнопок</string>
+    <string name="unlock_scramble_pin_layout_summary">Перемешать расположение кнопок ввода PIN-кода при разблокировке устройства</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Натурально черный</string>
+    <string name="berry_black_theme_summary">Натурально черный фон для темной темы</string>
     <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
     <string name="assisted_gps">Использовать A-GPS</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
@@ -53,18 +74,6 @@
     <string name="battery_maximum_capacity_summary">%1$d мАч (%2$d%%)</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Внимание: Эта опция может работать некорректно или привести к потере данных и поэтому не рекомендуется!</string>
-    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
-    <string name="show_dev_countdown_cm">{count,plural, 
-      =1{Нажмите ещё # раз, чтобы включить возможности разработчика.}
-      one{Нажмите ещё # раз, чтобы включить возможности разработчика.}
-      few{Нажмите ещё # раза, чтобы включить возможности разработчика.}
-      many{Нажмите ещё # раз, чтобы включить возможности разработчика.}
-      other{Нажмите ещё # раза, чтобы включить возможности разработчика.}
-    }</string>
-    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on_cm">Вы стали разработчиком!</string>
-    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already_cm">Не нужно, вы уже разработчик.</string>
     <!-- Copy to clipboard -->
     <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
     <string name="longpress_to_clipboard">Зажмите, чтобы скопировать</string>
@@ -73,9 +82,6 @@
     <!-- Heads-up -->
     <string name="heads_up_notifications_enabled_title">Всплывающие уведомления</string>
     <string name="heads_up_notifications_enabled_summary">Показывать приоритетные уведомления в виде баннера</string>
-    <!-- Black theme for dark mode -->
-    <string name="berry_black_theme_title">Натурально черный</string>
-    <string name="berry_black_theme_summary">Натурально черный фон для темной темы</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Оптимизировать ваш экран в зависимости от времени суток и условий окружающей среды, чтобы улучшить читаемость и уменьшить напряжение глаз</string>
     <string name="live_display_mode">Режим экрана</string>
@@ -194,15 +200,15 @@
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Однократная автояркость</string>
     <string name="auto_brightness_one_shot_summary">Регулировка яркости будет происходить только в момент включения экрана</string>
-    <!-- PIN scramble -->
-    <string name="unlock_scramble_pin_layout_title">Перемешивать расположение кнопок</string>
-    <string name="unlock_scramble_pin_layout_summary">Перемешать расположение кнопок ввода PIN-кода при разблокировке устройства</string>
     <!-- Smart 5G -->
     <string name="smart_5g_title">Умный 5G</string>
     <string name="smart_5g_summary">Автоматически переключать между 5G и 4G для снижения расхода батареи</string>
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Меню кнопки питания</string>
     <string name="lockscreen_enable_power_menu_summary">Разрешать доступ к меню кнопки питания на заблокированном экране</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Быстрый фонарик</string>
+    <string name="power_button_torch_summary">Когда экран выключен, длительное нажатие кнопки питания будет включать фонарик</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Управление воспроизведением</string>
     <string name="volume_button_music_control_summary">Когда экран выключен, длительное нажатие клавиш громкости переключает музыкальные треки</string>
@@ -228,9 +234,6 @@
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Активный экран</string>
     <string name="doze_enabled_summary">Включить отображение событий на выключенном экране</string>
-    <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">Выключение нажатием</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Дважды нажмите на строку состояния или экран блокировки, чтобы выключить экран</string>
     <!-- Refresh rate -->
     <string name="refresh_rate_title">Частота обновления экрана</string>
     <string name="refresh_rate_summary_vrr_off">%d Гц</string>
@@ -283,9 +286,6 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Проведите для скриншота</string>
     <string name="three_finger_gesture_summary">Проведите тремя пальцами вниз, чтобы сделать снимок экрана</string>
-    <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Быстрый фонарик</string>
-    <string name="power_button_torch_summary">Когда экран выключен, длительное нажатие кнопки питания будет включать фонарик</string>
     <!-- Status bar - Network Traffic -->
     <string name="network_traffic_settings_title">Монитор сетевого трафика</string>
     <string name="network_traffic_settings_summary">Отображать текущий уровень сетевого трафика в строке состояния</string>
@@ -302,8 +302,9 @@
     <string name="network_traffic_units_kilobytes">Килобайт в секунду (кБ/с)</string>
     <string name="network_traffic_units_megabytes">Мегабайт в секунду (МБ/с)</string>
     <string name="network_traffic_units_auto">Автоматически (кБ/с или МБ/с)</string>
-    <!-- Volume dialog position -->
-    <string name="volume_panel_category_title">Панель громкости</string>
-    <string name="volume_panel_on_left_title">Панель громкости слева</string>
-    <string name="volume_panel_on_left_summary">Показывать панель громкости у левого края экрана</string>
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Clear query</string>
+    <string name="language_picker_page">Language picker page</string>
+    <string name="search_region">Search regions</string>
+    <string name="search_region_page">Search region page</string>
 </resources>
