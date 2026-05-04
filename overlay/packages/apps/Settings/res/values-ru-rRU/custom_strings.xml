@@ -303,8 +303,8 @@
     <string name="network_traffic_units_megabytes">Мегабайт в секунду (МБ/с)</string>
     <string name="network_traffic_units_auto">Автоматически (кБ/с или МБ/с)</string>
     <!-- Locale Picker -->
-    <string name="clear_search_query_description">Clear query</string>
-    <string name="language_picker_page">Language picker page</string>
-    <string name="search_region">Search regions</string>
-    <string name="search_region_page">Search region page</string>
+    <string name="clear_search_query_description">Очистить запрос</string>
+    <string name="language_picker_page">Страница выбора языка</string>
+    <string name="search_region">Поиск по регионам</string>
+    <string name="search_region_page">Страница поиска по регионам</string>
 </resources>
