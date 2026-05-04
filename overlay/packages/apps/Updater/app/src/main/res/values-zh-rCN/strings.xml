@@ -62,11 +62,11 @@
     <string name="update_recovery_summary">启用以自动从构建中更新 Recovery。</string>
     <string name="snack_updates_check_failed">检查更新失败。 请检查您的网络连接并稍后重试。</string>
     <!-- Downloads -->
-    <string name="downloads_header">Downloads</string>
-    <string name="menu_stream_ota">Stream updates</string>
-    <string name="menu_stream_ota_summary">Whenever possible, save time by installing updates as they download.\nDisable on unreliable network.</string>
+    <string name="downloads_header">下载</string>
+    <string name="menu_stream_ota">流式更新</string>
+    <string name="menu_stream_ota_summary">尽可能在下载更新时同步进行安装准备以节省时间。\n网络不稳定时请关闭此功能。</string>
     <string name="snack_download_failed">下载更新失败。 请检查您的网络连接并稍后重试。</string>
-    <string name="stream_download_failed_toast">Stream download failed, switching to regular download.</string>
+    <string name="stream_download_failed_toast">以流式模式下载失败，正在切换为普通模式。</string>
     <string name="snack_download_verification_failed">验证更新失败。</string>
     <string name="snack_download_verified">下载完成。</string>
     <string name="snack_update_not_installable">在当前的版本上无法安装此更新。</string>
