@@ -300,8 +300,8 @@
     <string name="network_traffic_units_megabytes">Megabytes por segundo (MB/s)</string>
     <string name="network_traffic_units_auto">Automático (kB/s ou MB/s)</string>
     <!-- Locale Picker -->
-    <string name="clear_search_query_description">Clear query</string>
-    <string name="language_picker_page">Language picker page</string>
-    <string name="search_region">Search regions</string>
-    <string name="search_region_page">Search region page</string>
+    <string name="clear_search_query_description">Limpar pesquisa</string>
+    <string name="language_picker_page">Página de seleção de idioma</string>
+    <string name="search_region">Pesquisar regiões</string>
+    <string name="search_region_page">Página de pesquisa de região</string>
 </resources>
