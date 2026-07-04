@@ -51,34 +51,34 @@
     <!-- Battery Info: Health -->
     <string name="battery_health">Health</string>
     <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health_overheat">Überhitzung</string>
+    <string name="battery_health_dead">Leer</string>
+    <string name="battery_health_over_voltage">Überspannung</string>
+    <string name="battery_health_unspecified_failure">Unspezifizierter Fehler</string>
+    <string name="battery_health_cold">Kalt</string>
+    <string name="battery_health_unknown">Unbekannt</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature">Temperatur</string>
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage">Spannung</string>
     <!-- Battery Info: Charge Counter -->
     <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity">Vorgesehene Kapazität</string>
     <string name="battery_design_capacity_summary">%1$d mAh</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity">Maximale Kapazität</string>
     <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
     <!-- Warning message for the sd card setup -->
-    <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
+    <string name="storage_warning_internal">Warnung: Diese Option kann zu Fehlern führen bis hin zum Datenverlust und wird deshalb nicht empfohlen!</string>
     <!-- Copy to clipboard -->
-    <string name="copied_to_clipboard">Copied to clipboard</string>
-    <string name="longpress_to_clipboard">Long-press to copy</string>
+    <string name="copied_to_clipboard">In die Zwischenablage kopiert</string>
+    <string name="longpress_to_clipboard">Gedrückt halten zum Kopieren</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
     <!-- Heads-up -->
-    <string name="heads_up_notifications_enabled_title">Heads-up</string>
-    <string name="heads_up_notifications_enabled_summary">Display priority notifications in a small floating window</string>
+    <string name="heads_up_notifications_enabled_title">Kopf hoch</string>
+    <string name="heads_up_notifications_enabled_summary">Wichtige Benachrichtigungen in einem kleinem, schwebendem Fenster anzeigen</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
     <string name="live_display_mode">Display mode</string>
