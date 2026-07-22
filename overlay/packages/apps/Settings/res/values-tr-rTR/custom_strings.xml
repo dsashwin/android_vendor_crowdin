@@ -23,8 +23,8 @@
     <string name="adb_enable_summary_root">Android hata ayıklamanın kök erişimi olarak çalışmasına izin verin</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <string name="show_dev_countdown_cm">{count, plural,
-      =1      {You are now # step away from enabling development settings.}
-      other   {You are now # steps away from enabling development settings.}
+      =1      {Geliştirme ayarlarını etkinleştirmekten artık # adım uzaktasınız.}
+      other   {Geliştirme ayarlarını etkinleştirmekten artık # adım uzaktasınız.}
     }</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
     <string name="show_dev_on_cm">Geliştirici seçenekleri etkinleştirildi!</string>
@@ -300,8 +300,8 @@
     <string name="network_traffic_units_megabytes">Saniyede megabayt (MB/sn)</string>
     <string name="network_traffic_units_auto">Otomatik (kB/sn ya da MB/sn)</string>
     <!-- Locale Picker -->
-    <string name="clear_search_query_description">Clear query</string>
-    <string name="language_picker_page">Language picker page</string>
-    <string name="search_region">Search regions</string>
-    <string name="search_region_page">Search region page</string>
+    <string name="clear_search_query_description">Sorguyu temizle</string>
+    <string name="language_picker_page">Dil seçici sayfası</string>
+    <string name="search_region">Bölgeleri ara</string>
+    <string name="search_region_page">Bölge arama sayfası</string>
 </resources>
