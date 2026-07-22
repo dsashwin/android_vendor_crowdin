@@ -47,7 +47,8 @@
     <string name="dialog_prepare_zip_message">Güncelleme ön hazırlığı</string>
     <string name="dialog_battery_low_title">Düşük pil</string>
     <string name="dialog_battery_low_message_pct">Pil seviyesi çok düşük, devam etmek için en az %%<xliff:g id="percent_discharging">%1$d</xliff:g> pil gereklidir, %%<xliff:g id="percent_charging">%2$d</xliff:g> şarj ediliyor.</string>
-    <string name="dialog_scratch_mounted_message"><![CDATA[Please run the following commands and retry the update:\n
+    <string name="dialog_scratch_mounted_message"><![CDATA[
+Lütfen aşağıdaki komutları çalıştırın ve güncellemeyi tekrar deneyin.:\n
         • adb root\n
         • adb enable-verity\n
         • adb reboot
@@ -62,11 +63,11 @@
     <string name="update_recovery_summary">Derlemeden kurtarmayı otomatik olarak güncellemeyi etkinleştirin.</string>
     <string name="snack_updates_check_failed">Güncelleme kontrolü başarısız oldu. Lütfen internet bağlantınızı kontrol edin ve daha sonra tekrar deneyin.</string>
     <!-- Downloads -->
-    <string name="downloads_header">Downloads</string>
-    <string name="menu_stream_ota">Stream updates</string>
-    <string name="menu_stream_ota_summary">Whenever possible, save time by installing updates as they download.\nDisable on unreliable network.</string>
+    <string name="downloads_header">İndirilenler</string>
+    <string name="menu_stream_ota">Güncellemeleri yayınla</string>
+    <string name="menu_stream_ota_summary">Güncellemeleri yayınla</string>
     <string name="snack_download_failed">İndirme başarısız oldu. Lütfen internet bağlantınızı kontrol edin ve daha sonra tekrar deneyin.</string>
-    <string name="stream_download_failed_toast">Stream download failed, switching to regular download.</string>
+    <string name="stream_download_failed_toast">Çevrimiçi indirme başarısız oldu, normal indirmeye geçiliyor.</string>
     <string name="snack_download_verification_failed">Güncelleme doğrulaması tamamlanamadı.</string>
     <string name="snack_download_verified">İndirme tamamlandı.</string>
     <string name="snack_update_not_installable">Bu güncelleme mevcut yapının üstüne yüklenemez.</string>
