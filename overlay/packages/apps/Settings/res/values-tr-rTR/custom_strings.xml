@@ -213,7 +213,7 @@
     <string name="prevent_ringing_option_cycle">Modlar arasında geçiş yap</string>
     <string name="prevent_ringing_option_cycle_summary">Açık (modlar arasında geçiş yap)</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_title">Şarja takınca uyan</string>
     <string name="wake_when_plugged_or_unplugged_summary">Şarj aleti takıldığında ya da çıkarıldığında ekranı aç</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Pencere güvenlik işaretlerini yoksay</string>
@@ -265,16 +265,16 @@
     <string name="icon_manager_summary">Durum çubuğu simgelerinin görünürlüğünü kontrol edin</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamalar</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_summary">Uygulamaların çentik alanını görmezden gelmesini zorla</string>
     <string name="app_list_search">Ara</string>
     <string name="app_list_search_apps">Uygulamalar ara</string>
     <string name="app_list_loading">Uygulamalar yükleniyor\u2026</string>
     <!-- Keybox Data -->
-    <string name="keybox_data_title">Configure keybox XML</string>
-    <string name="keybox_data_summary">Configure system-wide key attestation spoofing. Tap Delete to reset to defaults.</string>
+    <string name="keybox_data_title">Keybox XML\'ini yapılandırın</string>
+    <string name="keybox_data_summary">Sistem genelinde anahtar doğrulama sahtekarlığını yapılandırın. Varsayılan ayarlara sıfırlamak için Sil\'e dokunun.</string>
     <!-- Pif Data -->
-    <string name="pif_data_title">Configure PIF JSON</string>
-    <string name="pif_data_summary">Configure PIF JSON used to spoof properties for GMS and the Play Store. Tap Delete to revert to dynamic defaults.</string>
+    <string name="pif_data_title">PIF JSON\'u yapılandırın</string>
+    <string name="pif_data_summary">GMS ve Play Store için özellikleri taklit etmek amacıyla kullanılan PIF JSON\'u yapılandırın. Dinamik varsayılanlara geri dönmek için Sil\'e dokunun.</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Ekran görüntüsü sesi</string>
     <!-- Global Actions -->
