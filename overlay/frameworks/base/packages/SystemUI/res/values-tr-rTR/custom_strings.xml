@@ -98,7 +98,7 @@
     <!-- Restart to bootloader mode progress dialog. This is shown if the user chooses to restart the device. -->
     <string name="global_action_restart_bootloader_progress">Ön yükleyici modunda yeniden başlatılıyor\u2026</string>
     <!-- Restart to download mode progress dialog. This is shown if the user chooses to restart the device. -->
-    <string name="global_action_restart_download_progress">Restarting to download mode\u2026</string>
+    <string name="global_action_restart_download_progress">Yükleme moduna yeniden başlatılıyor.\u2026</string>
     <!-- Button to restart SystemUI, within the Restart Options dialog -->
     <string name="global_action_restart_systemui">Sistem arayüzü</string>
     <!-- Flashlight Strength -->
