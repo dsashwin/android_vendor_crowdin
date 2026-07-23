@@ -6,7 +6,7 @@
 <resources>
     <!-- Dolby Atmos -->
     <string name="dolby_title">Dolby Atmos</string>
-    <string name="dolby_enable">Dolby Atmış kullan</string>
+    <string name="dolby_enable">Dolby Atmos kullan</string>
     <string name="dolby_profile_title">Bir profil seçin</string>
     <string name="dolby_preset">Grafik ekolayzer</string>
     <string name="dolby_off">Kapalı</string>
@@ -46,7 +46,7 @@
     <string name="dolby_preset_dance">Dans</string>
     <string name="dolby_preset_metal">Metal</string>
     <!-- Dolby equalizer UI -->
-    <string name="dolby_geq_slider_label_gain">Gain</string>
+    <string name="dolby_geq_slider_label_gain">Yükselt</string>
     <string name="dolby_geq_preset">Ön Ayar</string>
     <string name="dolby_geq_preset_name">Ön ayar adı</string>
     <string name="dolby_geq_new_preset">Yeni ön ayar</string>
