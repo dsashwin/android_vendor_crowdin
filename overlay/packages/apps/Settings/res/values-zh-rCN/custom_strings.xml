@@ -158,6 +158,7 @@
     <string name="charging_control_target_time_title">完全充满所需的时间</string>
     <string name="charging_control_target_time_summary">电池将在 %s 完全充满</string>
     <string name="charging_control_limit_title">上限</string>
+    <string name="charging_control_limit_summary">Current limit: %d%%</string>
     <string name="reset">重置</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">您可以在平板电脑正面找到指纹传感器。</string>
