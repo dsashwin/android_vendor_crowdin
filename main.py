@@ -14,7 +14,8 @@ async def main():
     with open("repos.yaml", "r") as f:
         r = yaml.safe_load(f.read())
 
-    repos: dict = r.get("repos", [])
+    default_branch = r.get("default_branch")
+    repos: list[dict] = r.get("repos", [])
 
     tasks: list[CoroutineType] = []
     meta: list[dict] = []
@@ -29,12 +30,16 @@ async def main():
         timeout=30,
     ) as client:
         for repo in repos:
+            branch = repo.get("branch", default_branch)
+            params = {"ref": branch} if branch else {}
             for m in repo.get("files", []):
-                tasks.append(client.get(repo["name"] + "/contents/" + m))
+                tasks.append(client.get(f"{repo['name']}/contents/{m}", params=params))
                 meta.append(
                     {
+                        "repo_name": repo["name"],
                         "repo_path": repo["path"],
                         "file_path": m,
+                        "branch": branch,
                         "translate_attributes": repo.get("translate_attributes", True),
                     }
                 )
@@ -43,6 +48,12 @@ async def main():
     files = []
 
     for m, res in zip(meta, results):
+        if res.status_code != 200:
+            raise RuntimeError(
+                f"Failed to fetch {m['file_path']} from {m['repo_name']} (branch: {m['branch']}): "
+                f"HTTP {res.status_code} - {res.text}"
+            )
+
         content = res.json()["content"]
         decoded = b64decode(content)
 
