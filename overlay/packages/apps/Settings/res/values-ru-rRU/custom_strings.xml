@@ -246,6 +246,26 @@
     <!-- Battery saver refresh rate -->
     <string name="battery_saver_refresh_rate_title">Уменьшить частоту обновления экрана</string>
     <string name="battery_saver_refresh_rate_summary">Использовать частоту обновления экрана в 60 Гц для экономии энергии, когда включен режим энергосбережения</string>
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_entry_purpose">Allows users to enable or disable Adaptive Battery, which optimizes app battery usage based on phone usage patterns to extend battery life.</string>
+    <string name="adaptive_battery_management_enabled_purpose">Whether Adaptive Battery is enabled to optimize battery usage based on app usage patterns.</string>
+    <string name="adaptive_battery_switch_title">Use Adaptive Battery</string>
+    <string name="basic_battery_saver_title">Standard Battery Saver</string>
+    <string name="basic_battery_saver_summary">Limits visual effects and background activity. Turns on Dark theme, if not already on.</string>
+    <string name="basic_battery_saver_purpose">Enables Standard Battery Saver mode which limits visual effects and background activity</string>
+    <string name="battery_saver_reminder_category">Reminders</string>
+    <string name="battery_saver_reminder_switch_title">Battery Saver reminders</string>
+    <string name="battery_saver_reminder_switch_summary">Get reminders when battery is low</string>
+    <string name="battery_saver_schedule_category">Schedule</string>
+    <string name="battery_saver_schedule_switch_title">Turn on based on battery level</string>
+    <string name="battery_saver_schedule_switch_summary">Battery Saver turns on when battery falls to a level you set</string>
+    <string name="battery_saver_schedule_purpose">Allows users to configure Battery Saver schedules, including automatic activation based on battery percentage and automatic deactivation when charged, as well as managing low-battery notification reminders.</string>
+    <string name="battery_schedule_title">Schedule and reminders</string>
+    <string name="battery_schedule_summary">Manage when Battery Saver turns on</string>
+    <string name="extreme_battery_saver_title">Extreme Battery Saver</string>
+    <string name="extreme_battery_saver_summary">Includes all changes listed above. Also pauses non-essential apps and their notifications.</string>
+    <string name="extreme_battery_saver_purpose">Enables Extreme Battery Saver mode which pauses non-essential apps and notifications</string>
+    <string name="low_power_mode_reminder_enabled_purpose">Whether to receive notification reminders when the battery is low</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Отпечаток пальца на заблокированном экране</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
@@ -279,6 +299,9 @@
     <!-- Pif Data -->
     <string name="pif_data_title">Настройка PIF JSON</string>
     <string name="pif_data_summary">Настроить JSON-файл PIF, используемый для подмены свойств для GMS и Play Store. Нажмите «Удалить», чтобы вернуться к динамическим значениям по умолчанию.</string>
+    <!-- Spoofing toggle -->
+    <string name="cert_overlay_title">Spoof certified properties</string>
+    <string name="cert_overlay_summary">Spoof PI certified properties to GMS\nRequires a reboot to apply</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Звук скриншота</string>
     <!-- Global Actions -->
@@ -308,4 +331,19 @@
     <string name="language_picker_page">Страница выбора языка</string>
     <string name="search_region">Поиск по регионам</string>
     <string name="search_region_page">Страница поиска по регионам</string>
+    <!-- Expressive QR -->
+    <string name="wifi_qr_code_animation_control">pause the animation</string>
+    <!-- System Updates -->
+    <string name="play_application_detail_indication_summary">Check for updates</string>
+    <string name="play_application_update_entry_title">App updates</string>
+    <string name="software_update_banner_checking">Checking for updates…</string>
+    <string name="software_update_banner_up_to_date">Your device is up to date</string>
+    <string name="software_update_banner_update_available">Updates available</string>
+    <string name="software_update_can_be_updated_header">Make your Pixel even better</string>
+    <string name="software_update_entry_title">Software updates</string>
+    <string name="software_update_pending_update_summary">Pending update</string>
+    <string name="software_update_settings_v2_purpose">Provides a centralized dashboard for users to monitor and initiate updates across the operating system, Google Play system components, and installed applications to ensure device security and performance.</string>
+    <string name="software_update_up_to_date_header">Your Pixel is up to date</string>
+    <string name="software_update_up_to_specific_date_summary">Updated to %1$s</string>
+    <string name="system_update_entry_title">System update</string>
 </resources>
