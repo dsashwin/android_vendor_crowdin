@@ -157,6 +157,7 @@
     <string name="charging_control_target_time_title">Tam şarj için hedef zaman</string>
     <string name="charging_control_target_time_summary">Batarya %s%% saatinde şarj edilmiş olacak</string>
     <string name="charging_control_limit_title">Limit</string>
+    <string name="charging_control_limit_summary">Current limit: %d%%</string>
     <string name="reset">Sıfırla</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Tabletinizin önündeki parmak izi sensörünü bulun.</string>
