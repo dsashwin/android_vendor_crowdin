@@ -160,6 +160,7 @@
     <string name="charging_control_target_time_title">Целевое время до полной зарядки</string>
     <string name="charging_control_target_time_summary">Батарея будет полностью заряжена к %s</string>
     <string name="charging_control_limit_title">Ограничение</string>
+    <string name="charging_control_limit_summary">Current limit: %d%%</string>
     <string name="reset">Сбросить</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите сканер отпечатков пальцев на передней панели вашего планшета.</string>
