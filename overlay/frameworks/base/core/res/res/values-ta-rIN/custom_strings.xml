@@ -8,14 +8,14 @@
     <string name="alert_slider_state_path"></string>
     <string name="alert_slider_uevent_match_path"></string>
     <!-- Charging speed strings -->
-    <string name="charging_speed">Charging speed</string>
-    <string name="charging_speed_slow">Slow</string>
-    <string name="charging_speed_fast">Fast</string>
-    <string name="charging_speed_super_fast">Super fast</string>
+    <string name="charging_speed">மின்னேற்ற விரைவு</string>
+    <string name="charging_speed_slow">மெதுவாக</string>
+    <string name="charging_speed_fast">வேகம்</string>
+    <string name="charging_speed_super_fast">மிக விரைவாக</string>
     <!-- LiveDisplay strings -->
     <string name="live_display_auto">Automatic</string>
     <string name="live_display_auto_summary">Automatically adjust color temperature of screen after sunset and sunrise</string>
-    <string name="live_display_off">Off</string>
+    <string name="live_display_off">அனை</string>
     <string name="live_display_off_summary">Disable all adjustments</string>
     <string name="live_display_day">Day</string>
     <string name="live_display_day_summary">Use day settings only</string>
