@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Button that copies the url to the log of a crashed application -->
-    <string name="aerr_copy">Copy crash log URL</string>
-    <string name="url_copy_success">URL copied successfully</string>
-    <string name="url_copy_failed">An error occured while uploading the log to mkr/bin</string>
+    <string name="aerr_copy">Sao chép URL nhật ký lỗi</string>
+    <string name="url_copy_success">Sao chép URL thành công</string>
+    <string name="url_copy_failed">Đã xảy ra lỗi trong khi tải nhật ký lên mkr/bin</string>
     <!-- Alert slider proc nodes paths. -->
     <string name="alert_slider_state_path"></string>
     <string name="alert_slider_uevent_match_path"></string>
@@ -25,25 +25,25 @@
     <string name="live_display_outdoor_summary">Chỉ sử dụng cài đặt ngoài trời</string>
     <string name="live_display_hint">LiveDisplay có thể giúp giảm mỏi mắt và giúp bạn dễ ngủ vào buổi tối. Nhấn vào đây để thử!</string>
     <string name="accessibility_quick_settings_live_display_off">Tắt LiveDisplay.</string>
-    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: auto mode.</string>
-    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: day mode.</string>
-    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: night mode.</string>
-    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: outdoor mode.</string>
-    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay turned off.</string>
-    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay changed to auto mode.</string>
-    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay changed to day mode.</string>
-    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay changed to night mode.</string>
-    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay changed to outdoor mode.</string>
+    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: Chế độ tự động.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: Chế độ ban ngày.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: Chế độ ban đêm.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: Chế độ ngoài trời.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay đã tắt.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay đã đổi sang chế độ tự động.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay đã đổi sang chế độ ban ngày.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay đã đổi sang chế độ ban đêm.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay đã đổi sang chế độ ngoài trời.</string>
     <!-- Health interface -->
-    <string name="charging_control_notification_channel">Charging control</string>
-    <string name="charging_control_notification_title">Charging control</string>
-    <string name="charging_control_notification_cancel_once">Cancel</string>
-    <string name="charging_control_notification_content_limit">Battery will be charged to %1$d%%</string>
-    <string name="charging_control_notification_content_limit_reached">Battery is charged to %1$d%%</string>
-    <string name="charging_control_notification_content_target">Battery will be fully charged at %1$s</string>
-    <string name="charging_control_notification_content_target_reached">Battery is charged</string>
+    <string name="charging_control_notification_channel">Kiểm soát sạc</string>
+    <string name="charging_control_notification_title">Kiểm soát sạc</string>
+    <string name="charging_control_notification_cancel_once">Huỷ</string>
+    <string name="charging_control_notification_content_limit">Pin sẽ được sạc đến %1$d%%</string>
+    <string name="charging_control_notification_content_limit_reached">Pin đã được sạc đến %1$d%%</string>
+    <string name="charging_control_notification_content_target">Pin sẽ được sạc đến %1$s</string>
+    <string name="charging_control_notification_content_target_reached">Pin đã đầy</string>
     <!-- Cycle through ringer modes -->
-    <string name="volume_dialog_ringer_guidance_normal">Calls and notifications will ring</string>
+    <string name="volume_dialog_ringer_guidance_normal">Các cuộc gọi và thông báo sẽ đổ chuông</string>
     <!-- Status bar network traffic monitor strings -->
     <string name="kilobitspersecond_short">kb/s</string>
     <string name="megabitspersecond_short">Mb/s</string>
