@@ -23,8 +23,8 @@
     <string name="adb_enable_summary_root">允许以 root 身份运行 Android 调试</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <string name="show_dev_countdown_cm">{count, plural,
-      =1      {您离启用开发者选项还有 # 步。}
-      other   {您离启用开发者选项还有 # 步。}
+      =1      {距离启用开发者选项还有 # 步。}
+      other   {距离启用开发者选项还有 # 步。}
     }</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
     <string name="show_dev_on_cm">您现在处于开发者模式！</string>
@@ -158,7 +158,7 @@
     <string name="charging_control_target_time_title">完全充满所需的时间</string>
     <string name="charging_control_target_time_summary">电池将在 %s 完全充满</string>
     <string name="charging_control_limit_title">上限</string>
-    <string name="charging_control_limit_summary">Current limit: %d%%</string>
+    <string name="charging_control_limit_summary">当前上限：%d%%</string>
     <string name="reset">重置</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">您可以在平板电脑正面找到指纹传感器。</string>
@@ -245,25 +245,25 @@
     <string name="battery_saver_refresh_rate_title">降低刷新率</string>
     <string name="battery_saver_refresh_rate_summary">当省电模式开启时，使用 60 Hz 屏幕刷新率来节省电量</string>
     <!-- Battery Saver -->
-    <string name="adaptive_battery_entry_purpose">Allows users to enable or disable Adaptive Battery, which optimizes app battery usage based on phone usage patterns to extend battery life.</string>
-    <string name="adaptive_battery_management_enabled_purpose">Whether Adaptive Battery is enabled to optimize battery usage based on app usage patterns.</string>
-    <string name="adaptive_battery_switch_title">Use Adaptive Battery</string>
-    <string name="basic_battery_saver_title">Standard Battery Saver</string>
-    <string name="basic_battery_saver_summary">Limits visual effects and background activity. Turns on Dark theme, if not already on.</string>
-    <string name="basic_battery_saver_purpose">Enables Standard Battery Saver mode which limits visual effects and background activity</string>
-    <string name="battery_saver_reminder_category">Reminders</string>
-    <string name="battery_saver_reminder_switch_title">Battery Saver reminders</string>
-    <string name="battery_saver_reminder_switch_summary">Get reminders when battery is low</string>
-    <string name="battery_saver_schedule_category">Schedule</string>
-    <string name="battery_saver_schedule_switch_title">Turn on based on battery level</string>
-    <string name="battery_saver_schedule_switch_summary">Battery Saver turns on when battery falls to a level you set</string>
-    <string name="battery_saver_schedule_purpose">Allows users to configure Battery Saver schedules, including automatic activation based on battery percentage and automatic deactivation when charged, as well as managing low-battery notification reminders.</string>
-    <string name="battery_schedule_title">Schedule and reminders</string>
-    <string name="battery_schedule_summary">Manage when Battery Saver turns on</string>
-    <string name="extreme_battery_saver_title">Extreme Battery Saver</string>
-    <string name="extreme_battery_saver_summary">Includes all changes listed above. Also pauses non-essential apps and their notifications.</string>
-    <string name="extreme_battery_saver_purpose">Enables Extreme Battery Saver mode which pauses non-essential apps and notifications</string>
-    <string name="low_power_mode_reminder_enabled_purpose">Whether to receive notification reminders when the battery is low</string>
+    <string name="adaptive_battery_entry_purpose">允许用户启用或禁用自适应电池功能，该功能可以根据手机使用方式优化应用电池使用以延长电池寿命。</string>
+    <string name="adaptive_battery_management_enabled_purpose">是否根据启用自适应电池来根据应用使用方式优化电池使用。</string>
+    <string name="adaptive_battery_switch_title">使用自适应电池功能</string>
+    <string name="basic_battery_saver_title">标准省电模式</string>
+    <string name="basic_battery_saver_summary">限制视觉效果和后台活动。设备将自动打开深色模式。</string>
+    <string name="basic_battery_saver_purpose">启用标准省电模式，限制视觉效果和背景活动</string>
+    <string name="battery_saver_reminder_category">提示</string>
+    <string name="battery_saver_reminder_switch_title">省电模式提醒</string>
+    <string name="battery_saver_reminder_switch_summary">在电量不足时提醒我</string>
+    <string name="battery_saver_schedule_category">时间表</string>
+    <string name="battery_saver_schedule_switch_title">根据电池电量开启</string>
+    <string name="battery_saver_schedule_switch_summary">当电量低于您设定的值时，省电模式将自动开启</string>
+    <string name="battery_saver_schedule_purpose">允许用户配置省电时间表，包括根据电池百分比自动开启和充电时自动关闭， 并管理低电量通知提醒。</string>
+    <string name="battery_schedule_title">计划与提醒</string>
+    <string name="battery_schedule_summary">管理省电模式何时打开</string>
+    <string name="extreme_battery_saver_title">超级省电模式</string>
+    <string name="extreme_battery_saver_summary">包括上面列出的所有更改。也暂停非必要的应用程序及其通知。</string>
+    <string name="extreme_battery_saver_purpose">启用超级省电模式来暂停非必要的应用和通知</string>
+    <string name="low_power_mode_reminder_enabled_purpose">电池电量低时是否接收通知提醒</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">始终开启指纹识别</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
@@ -298,8 +298,8 @@
     <string name="pif_data_title">配置PIF JSON</string>
     <string name="pif_data_summary">设定用于 GMS 和谷歌商店的PIF JSON。按删除以重置至原本的动态配置。</string>
     <!-- Spoofing toggle -->
-    <string name="cert_overlay_title">Spoof certified properties</string>
-    <string name="cert_overlay_summary">Spoof PI certified properties to GMS\nRequires a reboot to apply</string>
+    <string name="cert_overlay_title">伪装认证属性（certified properties）</string>
+    <string name="cert_overlay_summary">向 GMS 伪装 Play Integrity 认证 Prop\n需要重启才能生效</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">屏幕截图提示音</string>
     <!-- Global Actions -->
@@ -330,18 +330,18 @@
     <string name="search_region">搜索地区</string>
     <string name="search_region_page">区域搜索页面</string>
     <!-- Expressive QR -->
-    <string name="wifi_qr_code_animation_control">pause the animation</string>
+    <string name="wifi_qr_code_animation_control">暂停动画</string>
     <!-- System Updates -->
-    <string name="play_application_detail_indication_summary">Check for updates</string>
-    <string name="play_application_update_entry_title">App updates</string>
-    <string name="software_update_banner_checking">Checking for updates…</string>
-    <string name="software_update_banner_up_to_date">Your device is up to date</string>
-    <string name="software_update_banner_update_available">Updates available</string>
-    <string name="software_update_can_be_updated_header">Make your Pixel even better</string>
-    <string name="software_update_entry_title">Software updates</string>
-    <string name="software_update_pending_update_summary">Pending update</string>
-    <string name="software_update_settings_v2_purpose">Provides a centralized dashboard for users to monitor and initiate updates across the operating system, Google Play system components, and installed applications to ensure device security and performance.</string>
-    <string name="software_update_up_to_date_header">Your Pixel is up to date</string>
-    <string name="software_update_up_to_specific_date_summary">Updated to %1$s</string>
-    <string name="system_update_entry_title">System update</string>
+    <string name="play_application_detail_indication_summary">检查更新</string>
+    <string name="play_application_update_entry_title">应用更新</string>
+    <string name="software_update_banner_checking">正在检查更新…</string>
+    <string name="software_update_banner_up_to_date">您的设备已是最新版本</string>
+    <string name="software_update_banner_update_available">有可用更新</string>
+    <string name="software_update_can_be_updated_header">使您的 Pixel 体验更佳</string>
+    <string name="software_update_entry_title">软件更新</string>
+    <string name="software_update_pending_update_summary">更新暂停</string>
+    <string name="software_update_settings_v2_purpose">集中检查和管理系统、Google Play 系统组件及已安装应用的更新，保障设备安全与性能。</string>
+    <string name="software_update_up_to_date_header">您的 Pixel 已是最新版本</string>
+    <string name="software_update_up_to_specific_date_summary">已更新到 %1$s</string>
+    <string name="system_update_entry_title">系统更新</string>
 </resources>
