@@ -157,7 +157,7 @@
     <string name="charging_control_target_time_title">Horário de término</string>
     <string name="charging_control_target_time_summary">A bateria estará totalmente carregada às %s</string>
     <string name="charging_control_limit_title">Limite</string>
-    <string name="charging_control_limit_summary">Current limit: %d%%</string>
+    <string name="charging_control_limit_summary">Limite atual: %d%%</string>
     <string name="reset">Redefinir</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localize o sensor de impressão digital na parte frontal do seu tablet.</string>
@@ -244,25 +244,25 @@
     <string name="battery_saver_refresh_rate_title">Reduzir taxa de atualização</string>
     <string name="battery_saver_refresh_rate_summary">Use a taxa de atualização da tela de 60 Hz para economizar energia quando a Economia de bateria estiver ativada</string>
     <!-- Battery Saver -->
-    <string name="adaptive_battery_entry_purpose">Allows users to enable or disable Adaptive Battery, which optimizes app battery usage based on phone usage patterns to extend battery life.</string>
-    <string name="adaptive_battery_management_enabled_purpose">Whether Adaptive Battery is enabled to optimize battery usage based on app usage patterns.</string>
-    <string name="adaptive_battery_switch_title">Use Adaptive Battery</string>
-    <string name="basic_battery_saver_title">Standard Battery Saver</string>
-    <string name="basic_battery_saver_summary">Limits visual effects and background activity. Turns on Dark theme, if not already on.</string>
-    <string name="basic_battery_saver_purpose">Enables Standard Battery Saver mode which limits visual effects and background activity</string>
-    <string name="battery_saver_reminder_category">Reminders</string>
-    <string name="battery_saver_reminder_switch_title">Battery Saver reminders</string>
-    <string name="battery_saver_reminder_switch_summary">Get reminders when battery is low</string>
-    <string name="battery_saver_schedule_category">Schedule</string>
-    <string name="battery_saver_schedule_switch_title">Turn on based on battery level</string>
-    <string name="battery_saver_schedule_switch_summary">Battery Saver turns on when battery falls to a level you set</string>
-    <string name="battery_saver_schedule_purpose">Allows users to configure Battery Saver schedules, including automatic activation based on battery percentage and automatic deactivation when charged, as well as managing low-battery notification reminders.</string>
-    <string name="battery_schedule_title">Schedule and reminders</string>
-    <string name="battery_schedule_summary">Manage when Battery Saver turns on</string>
-    <string name="extreme_battery_saver_title">Extreme Battery Saver</string>
-    <string name="extreme_battery_saver_summary">Includes all changes listed above. Also pauses non-essential apps and their notifications.</string>
-    <string name="extreme_battery_saver_purpose">Enables Extreme Battery Saver mode which pauses non-essential apps and notifications</string>
-    <string name="low_power_mode_reminder_enabled_purpose">Whether to receive notification reminders when the battery is low</string>
+    <string name="adaptive_battery_entry_purpose">Permite aos usuários ativar ou desativar a bateria adaptável, o que otimiza o uso de bateria por aplicativos com base em padrões de uso do telefone para prolongar a duração da bateria.</string>
+    <string name="adaptive_battery_management_enabled_purpose">Indica se a Bateria Adaptativa está ativada para otimizar o uso da bateria com base nos padrões de uso do aplicativo.</string>
+    <string name="adaptive_battery_switch_title">Use a Bateria Adaptativa</string>
+    <string name="basic_battery_saver_title">Economizador de Bateria Padrão</string>
+    <string name="basic_battery_saver_summary">Limita os efeitos visuais e a atividade em segundo plano. Ativa o tema escuro, se ainda não estiver ativado.</string>
+    <string name="basic_battery_saver_purpose">Habilita o modo de Economia de bateria padrão que limita os efeitos visuais e as atividades em segundo plano</string>
+    <string name="battery_saver_reminder_category">Lembretes</string>
+    <string name="battery_saver_reminder_switch_title">Lembretes de economia de bateria</string>
+    <string name="battery_saver_reminder_switch_summary">Obter lembretes quando a bateria estiver baixa</string>
+    <string name="battery_saver_schedule_category">Agendamento</string>
+    <string name="battery_saver_schedule_switch_title">Ativar com base no nível da bateria</string>
+    <string name="battery_saver_schedule_switch_summary">A Economia de bateria é ativada quando a bateria atinge o nível definido</string>
+    <string name="battery_saver_schedule_purpose">Permite aos usuários configurar o agendamento da Economia de Bateria, incluindo ativação automática com base na porcentagem da bateria e desativação automática quando carregado, além de gerenciar lembretes de bateria baixa.</string>
+    <string name="battery_schedule_title">Programação e lembretes</string>
+    <string name="battery_schedule_summary">Gerenciar quando a Economia de Bateria é ativada</string>
+    <string name="extreme_battery_saver_title">Economia de Bateria Extrema</string>
+    <string name="extreme_battery_saver_summary">Inclui todas as alterações listadas acima. Também pausa aplicativos não essenciais e suas notificações.</string>
+    <string name="extreme_battery_saver_purpose">Habilita o modo de Economia extrema de bateria que pausa aplicativos e notificações não essenciais</string>
+    <string name="low_power_mode_reminder_enabled_purpose">Se deseja receber lembretes de notificação quando a bateria estiver baixa</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Impressão digital sempre ativa</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
@@ -297,7 +297,7 @@
     <string name="pif_data_title">Configurar JSON PIF</string>
     <string name="pif_data_summary">Configurar o PIF JSON usado para as propriedades dos GMS e da Play Store. Toque em Excluir para reverter para os padrões dinâmicos.</string>
     <!-- Spoofing toggle -->
-    <string name="cert_overlay_title">Spoof certified properties</string>
+    <string name="cert_overlay_title">Certificado de propriedade de Spoof</string>
     <string name="cert_overlay_summary">Spoof PI certified properties to GMS\nRequires a reboot to apply</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Som de captura de tela</string>
