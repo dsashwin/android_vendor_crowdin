@@ -3,7 +3,7 @@ default_branch: seventeen
 repos:
   - name: PixelOS-AOSP/android_frameworks_base
     path: frameworks/base
-    branch: 93b6558cbf87b8c9751797d54be623defa15c5b9 # Gerrit: 10491
+    branch: seventeen
     translate_attributes: false
     files:
       - core/res/res/values/custom_strings.xml
@@ -11,7 +11,7 @@ repos:
 
   - name: PixelOS-AOSP/android_packages_apps_Settings
     path: packages/apps/Settings
-    branch: e3786b44d4ff74b0e545cd07e6225fcff229c959 # Gerrit: 10548
+    branch: seventeen
     files:
       - res/values/custom_strings.xml
 
@@ -27,5 +27,6 @@ repos:
 
   - name: PixelOS-AOSP/android_packages_apps_Updater
     path: packages/apps/Updater
+    branch: 28e248c02adb9f414895c3e697d28098cf71fd92
     files:
       - app/src/main/res/values/strings.xml
