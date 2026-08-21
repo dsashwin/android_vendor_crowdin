@@ -160,7 +160,7 @@
     <string name="charging_control_target_time_title">Целевое время до полной зарядки</string>
     <string name="charging_control_target_time_summary">Батарея будет полностью заряжена к %s</string>
     <string name="charging_control_limit_title">Ограничение</string>
-    <string name="charging_control_limit_summary">Current limit: %d%%</string>
+    <string name="charging_control_limit_summary">Текущий лимит: %d%%</string>
     <string name="reset">Сбросить</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите сканер отпечатков пальцев на передней панели вашего планшета.</string>
@@ -247,18 +247,18 @@
     <string name="battery_saver_refresh_rate_title">Уменьшить частоту обновления экрана</string>
     <string name="battery_saver_refresh_rate_summary">Использовать частоту обновления экрана в 60 Гц для экономии энергии, когда включен режим энергосбережения</string>
     <!-- Battery Saver -->
-    <string name="adaptive_battery_entry_purpose">Allows users to enable or disable Adaptive Battery, which optimizes app battery usage based on phone usage patterns to extend battery life.</string>
-    <string name="adaptive_battery_management_enabled_purpose">Whether Adaptive Battery is enabled to optimize battery usage based on app usage patterns.</string>
-    <string name="adaptive_battery_switch_title">Use Adaptive Battery</string>
-    <string name="basic_battery_saver_title">Standard Battery Saver</string>
-    <string name="basic_battery_saver_summary">Limits visual effects and background activity. Turns on Dark theme, if not already on.</string>
-    <string name="basic_battery_saver_purpose">Enables Standard Battery Saver mode which limits visual effects and background activity</string>
-    <string name="battery_saver_reminder_category">Reminders</string>
-    <string name="battery_saver_reminder_switch_title">Battery Saver reminders</string>
-    <string name="battery_saver_reminder_switch_summary">Get reminders when battery is low</string>
-    <string name="battery_saver_schedule_category">Schedule</string>
-    <string name="battery_saver_schedule_switch_title">Turn on based on battery level</string>
-    <string name="battery_saver_schedule_switch_summary">Battery Saver turns on when battery falls to a level you set</string>
+    <string name="adaptive_battery_entry_purpose">Разрешает пользователям включать или выключать Адаптивную батарею, которая оптимизирует использование батареи приложениями на основе интересов пользователя, чтобы увеличить срок службы батареи.</string>
+    <string name="adaptive_battery_management_enabled_purpose">Адаптивная батарея включена для оптимизации энергопотребления на основе графиков использования приложений.</string>
+    <string name="adaptive_battery_switch_title">Использовать адаптивную батарею</string>
+    <string name="basic_battery_saver_title">Стандартная экономия батареи</string>
+    <string name="basic_battery_saver_summary">Ограничивает визуальные эффекты и фоновую активность. Включает тёмную тему, если не включена.</string>
+    <string name="basic_battery_saver_purpose">Включает стандартный режим экономии заряда батареи, ограничивающий визуальные эффекты и фоновую активность</string>
+    <string name="battery_saver_reminder_category">Напоминания</string>
+    <string name="battery_saver_reminder_switch_title">Напоминания об энергосбережении</string>
+    <string name="battery_saver_reminder_switch_summary">Напоминания о низком заряде батареи</string>
+    <string name="battery_saver_schedule_category">Расписание</string>
+    <string name="battery_saver_schedule_switch_title">Включать по уровню заряда</string>
+    <string name="battery_saver_schedule_switch_summary">Энергосбережение включается при достижении заданного уровня заряда</string>
     <string name="battery_saver_schedule_purpose">Allows users to configure Battery Saver schedules, including automatic activation based on battery percentage and automatic deactivation when charged, as well as managing low-battery notification reminders.</string>
     <string name="battery_schedule_title">Schedule and reminders</string>
     <string name="battery_schedule_summary">Manage when Battery Saver turns on</string>
