@@ -21,6 +21,12 @@ jobs:
       - env:
           X_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: uv run main.py
+
+      - name: Install Gerrit commit-msg hook
+        run: |
+          curl -fsSLo .git/hooks/commit-msg https://review.pixelos.net/tools/hooks/commit-msg
+          chmod +x .git/hooks/commit-msg
+
       - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: Sync resources with upstream sources
