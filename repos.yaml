@@ -30,3 +30,8 @@ repos:
     branch: seventeen
     files:
       - app/src/main/res/values/strings.xml
+
+  - name: PixelOS-AOSP/android_packages_apps_ColumbusService
+    path: packages/apps/ColumbusService
+    files:
+      - res/values/strings.xml

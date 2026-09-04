@@ -13,3 +13,5 @@ files:
   translation: /overlay/packages/apps/ParanoidSense/res/values-%android_code%/strings.xml
 - source: /source/packages/apps/Updater/app/src/main/res/values/strings.xml
   translation: /overlay/packages/apps/Updater/app/src/main/res/values-%android_code%/strings.xml
+- source: /source/packages/apps/ColumbusService/res/values/strings.xml
+  translation: /overlay/packages/apps/ColumbusService/res/values-%android_code%/strings.xml
