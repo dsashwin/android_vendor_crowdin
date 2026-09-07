@@ -90,6 +90,7 @@
     <string name="menu_stream_updates_summary">Inštalovať aktualizácie počas sťahovania. Vypnite, ak chcete balíky aktualizácií zachovať na export.</string>
     <string name="menu_delete_update">Odstrániť</string>
     <string name="menu_export_update">Export aktualizácie</string>
+    <string name="menu_view_downloads">View on <xliff:g id="brand_name" example="PixelOS">%1$s</xliff:g> Downloads</string>
     <string name="menu_metered_network_warning">Varovanie meranej siete</string>
     <string name="menu_metered_network_warning_summary">Upozorniť pred sťahovaním cez mobilné dáta</string>
     <string name="menu_ab_perf_mode">Uprednostňovať proces aktualizácie</string>
@@ -126,10 +127,16 @@
     <string name="found_bug">Našli ste chybu? Nahláste ju podľa nášho návodu na hlásenie chýb:</string>
     <string name="updates_zero_state_title">Nie sú k dispozícii žiadne aktualizácie</string>
     <string name="updates_zero_state_description">Nové zostavy pre toto zariadenie sa zobrazia tu, keď budú k dispozícii.</string>
+    <string name="list_build_version">PixelOS <xliff:g id="version" example="17.0">%1$s</xliff:g></string>
+    <string name="list_build_version_date">PixelOS <xliff:g id="version" example="17.0">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="list_update_size">Update size: <xliff:g id="size" example="1.34 GB">%1$s</xliff:g></string>
     <string name="list_security_update">Bezpečnostná aktualizácia: <xliff:g id="date" example="Jan 2026">%1$s</xliff:g></string>
     <string name="list_major_android_upgrade">Veľká inovácia systému Android</string>
     <string name="list_full_install">Úplná inštalácia: možno bezpečne nainštalovať na ľubovoľnú predchádzajúcu zostavu</string>
+    <string name="list_major_upgrade_recovery_install">Major <xliff:g id="brand_name" example="PixelOS">%1$s</xliff:g> version upgrades must be installed manually. Refer to your device\'s guide to continue.</string>
     <string name="list_downgrade_blocked">Táto zostava je staršia ako nainštalovaný systém a nedá sa použiť.</string>
+    <string name="list_download_progress_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> of <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
+    <string name="list_download_progress_eta_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> of <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>)</string>
     <string name="list_verifying_update">Overovanie aktualizácie</string>
     <string name="see_more">Zobraziť ďalšie %1$d</string>
     <string name="see_less">Zobraziť menej</string>
