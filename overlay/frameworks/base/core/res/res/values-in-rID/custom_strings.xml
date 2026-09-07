@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Button that copies the url to the log of a crashed application -->
+    <string name="aerr_copy">Copy crash log URL</string>
+    <string name="url_copy_success">URL copied successfully</string>
+    <string name="url_copy_failed">An error occured while uploading the log to mkr/bin</string>
     <!-- Alert slider proc nodes paths. -->
+    <string name="alert_slider_state_path"></string>
+    <string name="alert_slider_uevent_match_path"></string>
     <!-- Charging speed strings -->
     <string name="charging_speed">Kecepatan pengisian daya</string>
     <string name="charging_speed_slow">Lambat</string>
@@ -12,7 +17,9 @@
     <string name="live_display_auto_summary">Sesuaikan suhu warna layar secara otomatis setelah matahari terbenam dan terbit</string>
     <string name="live_display_off">Mati</string>
     <string name="live_display_off_summary">Nonaktifkan semua penyesuaian</string>
+    <string name="live_display_day">Day</string>
     <string name="live_display_day_summary">Hanya menggunakan setelan siang hari</string>
+    <string name="live_display_night">Night</string>
     <string name="live_display_night_summary">Hanya menggunakan setelan malam hari</string>
     <string name="live_display_outdoor">Luar ruangan (matahari cerah)</string>
     <string name="live_display_outdoor_summary">Hanya menggunakan setelan luar ruangan</string>
