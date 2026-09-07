@@ -5,21 +5,40 @@
   SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Quick Tap Service</string>
     <!-- Pref keys -->
     <!-- Categ keys -->
     <!-- Screen keys -->
     <!-- Other non-translatable -->
     <!-- Quick settings tile label -->
+    <string name="quick_settings_label">Quick Tap</string>
     <!-- Entry points in Settings -->
     <string name="settings_entry_title">செயல்களைத் தொடங்க விரைவாகத் தட்டுதல்</string>
     <string name="settings_entry_summary_on">ஆன் / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">ஆஃப்</string>
+    <string name="settings_search_keywords">Quick Tap, back tap, tap, gesture, assist, assistant</string>
     <!-- Items in Quick Tap gesture settings -->
     <string name="setting_enabled_title">விரைவுத் தட்டலைப் பயன்படுத்து</string>
+    <string name="setting_footer_content">To perform an action, tap back of your phone twice near the middle</string>
+    <string name="setting_sensitivity_title">Sensitivity</string>
+    <string name="setting_sensitivity_light">Light tap</string>
+    <string name="setting_sensitivity_heavy">Heavy tap</string>
+    <string name="setting_haptic_intensity_title">Haptic feedback intensity</string>
+    <string name="setting_haptic_intensity_light">Light</string>
+    <string name="setting_haptic_intensity_strong">Strong</string>
+    <string name="setting_screen_off_title">Allow when screen is off</string>
+    <string name="setting_screen_off_summary">May increase false triggers</string>
+    <string name="setting_screen_off_blocked_summary">Blocked by current action</string>
     <string name="setting_action_title" product="default">மொபைலின் பின்புறம் இருமுறை தட்டி</string>
+    <string name="setting_action_title" product="device">Tap back of device twice to</string>
+    <string name="setting_action_title" product="tablet">Tap back of tablet twice to</string>
     <string name="launch_settings_activity_title">\'விரைவுத் தட்டல்\' அமைப்புகள்</string>
     <string name="setting_app_selection_help_text" product="default">உங்கள் மொபைலின் பின்புறத்தில் இருமுறை தட்டும்போது திறக்க வேண்டிய ஆப்ஸைத் தேர்ந்தெடுக்கவும். ஆப்ஸை நிறுவல் நீக்கினால் நீங்கள் வேறொரு ஆப்ஸைத் தேர்ந்தெடுக்கும் வரை \'விரைவுத் தட்டல்\' முடக்கப்பட்டிருக்கும்.</string>
+    <string name="setting_app_selection_help_text" product="device">Select an app to open when you tap the back of your device twice. If you uninstall the app, Quick Tap turns off until you select a different app.</string>
+    <string name="setting_app_selection_help_text" product="tablet">Select an app to open when you tap the back of your tablet twice. If you uninstall the app, Quick Tap turns off until you select a different app.</string>
+    <string name="setting_app_selection_help_text_disabled">To use this feature, you have to enable the Quick Tap first.</string>
     <string name="setting_app_shortcut_selection_help_text">\'விரைவுத் தட்டல்\' சைகையைப் பயன்படுத்தி இந்த ஆப்ஸைத் திறக்கும்போது என்ன நடக்க வேண்டும் என்பதைத் தேர்ந்தெடுக்கவும்.</string>
+    <string name="setting_app_shortcut_selection_help_text_disabled">@string/setting_app_selection_help_text_disabled</string>
     <string name="radio_button_extra_widget_a11y_label"><xliff:g id="action">%1$s</xliff:g> அமைப்புகள்</string>
     <string name="setting_action_launch_summary_no_selection">ஆப்ஸ் எதுவும் தேர்ந்தெடுக்கப்படவில்லை</string>
     <string name="setting_action_launch_summary_not_installed">ஆப்ஸ் நிறுவப்படவில்லை</string>
@@ -31,6 +50,13 @@
     <string name="action_notifications_name">அறிவிப்புகளைக் காட்டுதல்</string>
     <string name="action_flashlight_name">ஃபிளாஷ்லைட்டை ஆன்/ஆஃப் செய்தல்</string>
     <string name="action_launch_name">ஆப்ஸைத் திறத்தல்</string>
+    <string name="action_screenshot_value">screenshot</string>
+    <string name="action_assistant_value">assistant</string>
+    <string name="action_media_value">media</string>
+    <string name="action_overview_value">overview</string>
+    <string name="action_notifications_value">notifications</string>
+    <string name="action_flashlight_value">flashlight</string>
+    <string name="action_launch_value">launch</string>
     <!-- Actions meta -->
     <!-- Toast -->
     <string name="gesture_detected">\'விரைவுத் தட்டல்\' சைகை கண்டறியப்பட்டது!</string>
