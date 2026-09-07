@@ -5,6 +5,7 @@
 -->
 <resources>
     <!-- Dolby Atmos -->
+    <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_enable">使用 Dolby Atmos</string>
     <string name="dolby_profile_title">選擇配置檔案</string>
     <string name="dolby_preset">圖形均衡器</string>
