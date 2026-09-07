@@ -22,7 +22,12 @@
     <string name="status_bar_icons_title">Statusleistensymbole</string>
     <!-- Custom QS tiles -->
     <!-- Ambient display QS tile -->
+    <string name="quick_settings_ambient_display_label">Ambient display</string>
+    <string name="accessibility_quick_settings_ambient_display_off">Ambient display off.</string>
+    <string name="accessibility_quick_settings_ambient_display_on">Ambient display on.</string>
     <!-- AOD QS tile -->
+    <string name="quick_settings_aod_label">AOD</string>
+    <string name="quick_settings_aod_off_powersave_label">AOD off\nBattery saver</string>
     <!-- Autobrightness tile -->
     <string name="quick_settings_autobrightness_label">Automatische Helligkeit</string>
     <!-- Caffeine QS tile -->
@@ -34,6 +39,10 @@
     <string name="accessibility_quick_settings_heads_up_off">Kopf hoch aus.</string>
     <string name="accessibility_quick_settings_heads_up_on">Kopf hoch an.</string>
     <!-- PowerShare QS tile -->
+    <string name="quick_settings_powershare_label">Wireless PowerShare</string>
+    <string name="quick_settings_powershare_off_powersave_label">Wireless PowerShare off\nBattery saver</string>
+    <string name="quick_settings_powershare_off_low_battery_label">Wireless PowerShare off\nBattery too low</string>
+    <string name="quick_settings_powershare_enabled_label">Wireless PowerShare is enabled</string>
     <!-- Reader mode QS tile -->
     <string name="quick_settings_reading_mode">Lesemodus</string>
     <string name="accessibility_quick_settings_reading_mode_on">Lesemodus an.</string>
@@ -66,18 +75,34 @@
     <string name="screenshot_delete_description">Bildschirmfoto löschen</string>
     <!-- DataSwitch Tile -->
     <string name="qs_data_switch_label">Daten SIM-Karte wechseln</string>
+    <string name="qs_data_switch_sim_label">SIM %d</string>
+    <string name="qs_data_switch_sim_desc">SIM %d is the preferred mobile data SIM</string>
+    <string name="qs_data_switch_sim_transient">Switching\u2026</string>
     <!-- Face unlock -->
     <string name="face_unlock_recognizing">Gesicht erkennen...</string>
     <!-- Advanced restart menu -->
     <!-- Button to indicate more options -->
+    <string name="global_action_restart_more">More</string>
     <!-- Button to restart the device, within the Restart Options dialog -->
+    <string name="global_action_restart_system">System</string>
     <!-- Button to restart the device into recovery mode, within the Restart Options dialog -->
+    <string name="global_action_restart_recovery">Recovery</string>
     <!-- Button to restart the device into bootloader mode, within the Restart Options dialog -->
+    <string name="global_action_restart_bootloader">Bootloader</string>
     <!-- Button to restart the device into download mode, within the Restart Options dialog -->
+    <string name="global_action_restart_download">Download</string>
     <!-- Restart progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_progress">Restarting\u2026</string>
     <!-- Restart to recovery mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_recovery_progress">Restarting to recovery mode\u2026</string>
     <!-- Restart to bootloader mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_bootloader_progress">Restarting to bootloader mode\u2026</string>
     <!-- Restart to download mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_download_progress">Restarting to download mode\u2026</string>
     <!-- Button to restart SystemUI, within the Restart Options dialog -->
+    <string name="global_action_restart_systemui">SystemUI</string>
     <!-- Flashlight Strength -->
+    <string name="flashlight_strength_title">Flashlight Strength</string>
+    <string name="flashlight_strength_turn_off">Turn off</string>
+    <string name="flashlight_strength_turn_on">Turn on</string>
 </resources>
