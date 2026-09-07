@@ -298,6 +298,7 @@
     <string name="pif_data_summary">Configurar o PIF JSON usado para as propriedades dos GMS e da Play Store. Toque em Excluir para reverter para os padrões dinâmicos.</string>
     <!-- Spoofing toggle -->
     <string name="cert_overlay_title">Certificado de propriedade de Spoof</string>
+    <string name="cert_overlay_summary">Spoof PI certified properties to GMS\nRequires a reboot to apply</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Som de captura de tela</string>
     <!-- Global Actions -->
@@ -338,6 +339,7 @@
     <string name="software_update_can_be_updated_header">Deixe seu Pixel ainda melhor</string>
     <string name="software_update_entry_title">Atualizações de software</string>
     <string name="software_update_pending_update_summary">Atualização pendente</string>
+    <string name="software_update_settings_v2_purpose">Provides a centralized dashboard for users to monitor and initiate updates across the operating system, Google Play system components, and installed applications to ensure device security and performance.</string>
     <string name="software_update_up_to_date_header">Seu Pixel está atualizado</string>
     <string name="software_update_up_to_specific_date_summary">Atualizado em %1$s</string>
     <string name="system_update_entry_title">Atualização do sistema</string>
