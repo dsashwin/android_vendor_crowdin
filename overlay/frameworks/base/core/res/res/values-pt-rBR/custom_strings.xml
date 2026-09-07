@@ -5,6 +5,8 @@
     <string name="url_copy_success">URL copiado com sucesso</string>
     <string name="url_copy_failed">Ocorreu um erro ao carregar o log para mkr/bin</string>
     <!-- Alert slider proc nodes paths. -->
+    <string name="alert_slider_state_path"></string>
+    <string name="alert_slider_uevent_match_path"></string>
     <!-- Charging speed strings -->
     <string name="charging_speed">Velocidade de carregamento</string>
     <string name="charging_speed_slow">Lento</string>
