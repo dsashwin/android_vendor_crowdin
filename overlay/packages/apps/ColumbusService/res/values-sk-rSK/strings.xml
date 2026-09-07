@@ -38,6 +38,7 @@
     <string name="setting_app_selection_help_text" product="tablet">Vyberte, ktorá aplikácia sa má otvoriť, keď dvakrát klepnete na zadnú stranu tabletu. Ak danú aplikáciu odinštalujete, rýchle poklepanie sa vypne. Keď vyberiete inú aplikáciu, znova sa zapne.</string>
     <string name="setting_app_selection_help_text_disabled">Ak chcete túto funkciu používať, musíte najprv aktivovať funkciu Quick Tap.</string>
     <string name="setting_app_shortcut_selection_help_text">Vyberte, čo sa má stať, keď rýchlym poklepaním otvoríte túto aplikáciu.</string>
+    <string name="setting_app_shortcut_selection_help_text_disabled">@string/setting_app_selection_help_text_disabled</string>
     <string name="radio_button_extra_widget_a11y_label">Nastavenia akcie <xliff:g id="action">%1$s</xliff:g></string>
     <string name="setting_action_launch_summary_no_selection">Nie je vybraná žiadna aplikácia</string>
     <string name="setting_action_launch_summary_not_installed">Aplikácia nie je nainštalovaná</string>
