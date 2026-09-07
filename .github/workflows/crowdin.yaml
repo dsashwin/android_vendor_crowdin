@@ -1,0 +1,71 @@
+name: Sync with Crowdin
+
+on:
+  # Manual trigger: `gh workflow run crowdin.yaml`
+  workflow_dispatch:
+  # Daily translation pull
+  schedule:
+    - cron: "0 3 * * *"
+  # Sources changed by a human push
+  push:
+    branches:
+      - seventeen
+    paths:
+      - source/**
+      - crowdin.yml
+  # Sources changed by the regen bot (GITHUB_TOKEN pushes don't fire `push`)
+  workflow_run:
+    workflows:
+      - Regen source files and crowdin.yml
+    types:
+      - completed
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: crowdin-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: seventeen
+
+      - uses: crowdin/github-action@v2
+        with:
+          project_id: ${{ secrets.CROWDIN_PROJECT_ID }}
+          token: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+          # Crowdin project uses a version branch that mirrors the git branch
+          crowdin_branch_name: seventeen
+
+          upload_sources: true
+          upload_translations: false
+
+          download_translations: true
+          # Don't emit English fallbacks into values-<lang>/ overlays
+          skip_untranslated_strings: true
+
+          push_translations: true
+          localization_branch_name: l10n_seventeen
+          commit_message: "crowdin: Sync translations [ci skip]"
+          github_user_name: "github-actions[bot]"
+          github_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
+
+          create_pull_request: true
+          pull_request_base_branch_name: seventeen
+          pull_request_title: "crowdin: Sync translations"
+          pull_request_body: |
+            Automated translation sync from [Crowdin](https://crowdin.com/project/pixelos-aosp).
+
+            Delete the `l10n_seventeen` branch after merging; it is recreated on the next sync.
+          pull_request_labels: crowdin
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
