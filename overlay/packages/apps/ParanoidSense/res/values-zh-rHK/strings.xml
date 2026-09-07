@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Paranoid Sense</string>
     <!-- Enroll activity -->
     <string name="face_enroll_title">將臉部置於取景框中央</string>
     <string name="face_enroll_description">保持靜止，並確保所在環境光線充足</string>
