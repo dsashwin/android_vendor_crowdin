@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2021 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Advanced keyboard settings -->
+    <string name="keyboard_extras_title">Extras</string>
+    <!-- Android debugging as root -->
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <!-- Hotspot extras -->
+    <!-- PIN scramble -->
+    <!-- Black theme for dark mode -->
+    <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <!-- Battery Info: Technology -->
+    <!-- Battery Info: Health -->
+    <!-- Battery Info: Temperature -->
+    <!-- Battery Info: Voltage -->
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <!-- Battery Info: Maximum Capacity -->
+    <!-- Warning message for the sd card setup -->
+    <!-- Copy to clipboard -->
+    <!-- Radio Info -->
+    <!-- Heads-up -->
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimiser votre écran en fonction de l\'heure et des conditions ambiantes pour améliorer la lisibilité et réduire la fatigue oculaire</string>
+    <string name="live_display_mode">Mode d\'affichage</string>
+    <string name="live_display_color_temperature_title">Température de la couleur</string>
+    <string name="live_display_color_temperature_summary">Jour : <xliff:g id="day_temperature">%1$d</xliff:g>K  Nuit : <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_day">Jour</string>
+    <string name="live_display_night">Nuit</string>
+    <string name="live_display_outdoor_mode_title">Mode extérieur automatique</string>
+    <string name="live_display_outdoor_mode_summary">Augmenter la luminosité et la saturation automatiquement sous la lumière du soleil</string>
+    <string name="live_display_anti_flicker_title">Anti-scintillement</string>
+    <string name="live_display_anti_flicker_summary">Évite le scintillement et réduit la fatigue oculaire dans des conditions de faible luminosité. La précision des couleurs et la manière dont les éléments sont affichés peuvent être affectées.</string>
+    <string name="live_display_low_power_title">Réduire la consommation d\'énergie</string>
+    <string name="live_display_low_power_summary">Régler l\'affichage pour une plus faible consommation sans dégradation</string>
+    <string name="live_display_enhance_color_title">Améliorer les couleurs</string>
+    <string name="live_display_enhance_color_summary">Améliorer l\'éclat des couleurs des tons chair, des paysages et d\'autres images</string>
+    <string name="live_display_color_profile_standard_summary">Couleurs précises et blancs éclatants</string>
+    <string name="live_display_color_profile_natural_title">Naturel</string>
+    <string name="live_display_color_profile_natural_summary">Couleurs et tons chair réalistes</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamique</string>
+    <string name="live_display_color_profile_dynamic_summary">Couleurs améliorées et blancs lumineux</string>
+    <string name="live_display_color_profile_cinema_title">Cinéma</string>
+    <string name="live_display_color_profile_cinema_summary">Reproduction parfaite des couleurs pour la vidéo</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomie</string>
+    <string name="live_display_color_profile_astronomy_summary">Rouge profond pour préserver la vision nocturne</string>
+    <string name="live_display_color_profile_photography_title">Photographie</string>
+    <string name="live_display_color_profile_photography_summary">Reproduction parfaite des couleurs pour les photos</string>
+    <string name="live_display_color_profile_basic_title">Basique</string>
+    <string name="live_display_color_profile_basic_summary">Utiliser l\'écran sans étalonnage</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptatif</string>
+    <string name="live_display_color_profile_adaptive_summary">Les couleurs s\'adaptent aux conditions ambiantes</string>
+    <string name="live_display_color_profile_reading_title">Lecture</string>
+    <string name="live_display_color_profile_reading_summary">Couleurs plus chaudes pour diminuer la fatigue oculaire</string>
+    <string name="live_display_color_profile_srgb_summary">Couleurs correspondant exactement à l’espace colorimétrique sRGB</string>
+    <string name="live_display_color_profile_dci_p3_summary">Couleurs correspondant exactement à l’espace colorimétrique DCI-P3</string>
+    <string name="live_display_reading_mode_title">Mode Lecture</string>
+    <string name="live_display_reading_mode_summary">Affichage en niveaux de gris pour les périodes de lecture prolongées</string>
+    <string name="color_calibration_title">Calibrage des couleurs</string>
+    <string name="color_calibration_summary">Calibrer les couleurs de l\'écran</string>
+    <string name="color_red_title">Rouge</string>
+    <string name="color_green_title">Vert</string>
+    <string name="color_blue_title">Bleu</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Ajustement de l\'image</string>
+    <string name="picture_adjustment_summary">Ajustement de la teinte, de la saturation, de l\'intensité et du contraste</string>
+    <string name="adj_hue_title">Teinte</string>
+    <string name="adj_intensity_title">Intensité</string>
+    <string name="adj_contrast_title">Contraste</string>
+    <!-- High touch sensitivity -->
+    <!-- Touchscreen hovering -->
+    <!-- High touch polling rate -->
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Contrôle de la charge</string>
+    <string name="charging_control_enable_title">Activer le contrôle de la charge</string>
+    <string name="charging_control_mode_title">Mode de Charge</string>
+    <string name="charging_control_mode_auto_title">Planification automatique</string>
+    <string name="charging_control_mode_auto_summary">Déterminer automatiquement quand démarrer la charge en fonction des alarmes définies</string>
+    <string name="charging_control_mode_custom_title">Planification personnalisée</string>
+    <string name="charging_control_mode_custom_summary">Définir l\'heure de fin de la charge complète</string>
+    <string name="charging_control_mode_limit_title">Limiter la charge</string>
+    <string name="charging_control_mode_limit_summary">Limiter la charge à un certain pourcentage</string>
+    <string name="charging_control_start_time_title">Heure de départ</string>
+    <string name="charging_control_start_time_summary">Le contrôle de charge s\'active lorsque vous commencez à charger après %s</string>
+    <string name="charging_control_target_time_title">Heure de fin de la charge complète</string>
+    <string name="charging_control_target_time_summary">La batterie sera complètement chargée dans %s</string>
+    <string name="charging_control_limit_title">Limite</string>
+    <string name="charging_control_limit_summary">Limite actuelle : %d%%</string>
+    <string name="reset">Réinitialiser</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <!-- Lock screen pattern size -->
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Paramètres de rotation</string>
+    <string name="display_rotation_enabled">Rotation automatique activée</string>
+    <string name="display_rotation_disabled">Rotation automatique désactivée</string>
+    <string name="display_rotation_unit">degrés</string>
+    <string name="display_rotation_category_title">Modes de rotation</string>
+    <string name="display_rotation_0_title">0 degré</string>
+    <string name="display_rotation_90_title">90 degrés</string>
+    <string name="display_rotation_180_title">180 degrés</string>
+    <string name="display_rotation_270_title">270 degrés</string>
+    <!-- One shot automatic brightness -->
+    <!-- Smart 5G -->
+    <!-- Power menu on secure lockscreen -->
+    <!-- Torch Power button gestures -->
+    <!-- Volume button music control -->
+    <!-- Cycle through ringer modes gesture -->
+    <!-- Wake on plug -->
+    <!-- Ignore window secure -->
+    <!-- Incall vibrate options -->
+    <!-- Ambient wake toggles -->
+    <!-- Doze enablement -->
+    <!-- Refresh rate -->
+    <!-- Battery saver refresh rate -->
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Utiliser la batterie adaptative</string>
+    <string name="basic_battery_saver_title">Économiseur de batterie standard</string>
+    <string name="basic_battery_saver_summary">Limite les effets visuels et l\'activité en arrière-plan. Active le thème sombre, si ce n\'est pas déjà fait.</string>
+    <string name="battery_saver_reminder_category">Rappels</string>
+    <string name="battery_saver_reminder_switch_title">Rappels de l\'économiseur de batterie</string>
+    <string name="battery_saver_reminder_switch_summary">Recevez des rappels lorsque la batterie est faible</string>
+    <string name="battery_saver_schedule_category">Programmation</string>
+    <string name="battery_saver_schedule_switch_title">Activer selon le niveau de batterie</string>
+    <string name="battery_saver_schedule_switch_summary">L\'économiseur de batterie est activé lorsque la batterie descend à un niveau que vous avez défini</string>
+    <string name="battery_schedule_title">Programmation et rappels</string>
+    <string name="battery_schedule_summary">Gérer quand l\'économiseur de batterie s\'active</string>
+    <string name="extreme_battery_saver_title">Ultra économiseur de batterie</string>
+    <string name="extreme_battery_saver_summary">Applique tous les changements ci-dessus. Suspend aussi les applis non essentielles et leurs notifications.</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Hotspot -->
+    <!-- Status bar -->
+    <string name="icon_manager_title">Barre d\'état</string>
+    <!-- Notch: Full screen apps -->
+    <!-- Keybox Data -->
+    <!-- Pif Data -->
+    <!-- Spoofing toggle -->
+    <!-- Screenshot shutter -->
+    <!-- Global Actions -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Moniteur de trafic réseau</string>
+    <string name="network_traffic_settings_summary">Afficher les débits réseau actuels dans la barre d\'état</string>
+    <string name="network_traffic_mode_title">Mode d\'affichage</string>
+    <string name="network_traffic_mode_disable">Désactivé</string>
+    <string name="network_traffic_mode_up">Débit montant uniquement</string>
+    <string name="network_traffic_mode_down">Débit descendant uniquement</string>
+    <string name="network_traffic_mode_all">Débits montant et descendant</string>
+    <string name="network_traffic_autohide">Masquer automatiquement</string>
+    <string name="network_traffic_autohide_summary">Masquer le moniteur réseau lorsqu\'il n\'y a pas d\'activité</string>
+    <string name="network_traffic_units_title">Unités de mesure du trafic</string>
+    <string name="network_traffic_units_kilobits">Kilobits par seconde (kb/s)</string>
+    <string name="network_traffic_units_megabits">Mégabits par seconde (Mb/s)</string>
+    <string name="network_traffic_units_kilobytes">Kilooctets par seconde (ko/s)</string>
+    <string name="network_traffic_units_megabytes">Mégaoctets par seconde (Mo/s)</string>
+    <string name="network_traffic_units_auto">Automatique (ko/s ou Mo/s)</string>
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Effacer la requête</string>
+    <string name="language_picker_page">Page de l\'outil de sélection de langue</string>
+    <string name="search_region">Rechercher des régions</string>
+    <string name="search_region_page">Page \"Rechercher une région\"</string>
+    <!-- Expressive QR -->
+    <string name="wifi_qr_code_animation_control">met l\'animation en pause</string>
+    <!-- System Updates -->
+    <string name="play_application_detail_indication_summary">Rechercher des mises à jour</string>
+    <string name="play_application_update_entry_title">Mises à jour d\'applications</string>
+    <string name="software_update_banner_checking">Recherche de mises à jour…</string>
+    <string name="software_update_banner_up_to_date">Votre appareil est à jour</string>
+    <string name="software_update_banner_update_available">Mises à jour disponibles</string>
+    <string name="software_update_can_be_updated_header">Rendez votre Pixel encore plus performant</string>
+    <string name="software_update_entry_title">Mises à jour logicielles</string>
+    <string name="software_update_pending_update_summary">Mise à jour en attente</string>
+    <string name="software_update_up_to_date_header">Votre Pixel est à jour</string>
+    <string name="software_update_up_to_specific_date_summary">Mise à jour le %1$s</string>
+    <string name="system_update_entry_title">Mise à jour du système</string>
+</resources>
