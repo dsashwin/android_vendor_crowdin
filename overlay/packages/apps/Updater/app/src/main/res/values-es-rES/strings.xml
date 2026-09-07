@@ -42,6 +42,7 @@
         ]]></string>
     <string name="dialog_scratch_mounted_title">No se puede instalar la actualización con OverlayFS montado</string>
     <string name="reboot">Reiniciar</string>
+    <string name="menu_preferences">Preferences</string>
     <string name="preferences_summary">Sincronizar, descargar e instalar</string>
     <!-- System update screen -->
     <string name="system_up_to_date_title">Tu sistema está actualizado</string>
