@@ -5,6 +5,8 @@
     <string name="url_copy_success">URL úspešne skopírovaná</string>
     <string name="url_copy_failed">Vyskytla sa chyba pri nahrávaní log súboru na mkr/bin</string>
     <!-- Alert slider proc nodes paths. -->
+    <string name="alert_slider_state_path"></string>
+    <string name="alert_slider_uevent_match_path"></string>
     <!-- Charging speed strings -->
     <string name="charging_speed">Rýchlosť nabíjania</string>
     <string name="charging_speed_slow">Pomalá</string>
