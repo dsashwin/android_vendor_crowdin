@@ -70,7 +70,12 @@ async def main():
 
         files.append(entry)
 
-    Path("crowdin.yml").write_text(yaml.safe_dump({"files": files}))
+    # preserve_hierarchy keeps the source/<repo>/... layout in Crowdin; without
+    # it the CLI flattens everything to basenames and the many strings.xml /
+    # custom_strings.xml files collide.
+    Path("crowdin.yml").write_text(
+        yaml.safe_dump({"preserve_hierarchy": True, "files": files}, sort_keys=False)
+    )
 
 
 if __name__ == "__main__":
