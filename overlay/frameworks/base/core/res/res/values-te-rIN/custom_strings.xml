@@ -3,7 +3,10 @@
     <!-- Button that copies the url to the log of a crashed application -->
     <string name="aerr_copy">కూలుడు చిట్టా లంకెను నకలు చేయి</string>
     <string name="url_copy_success">URL విజయవంతంగా కాపీ చేయబడింది</string>
+    <string name="url_copy_failed">An error occured while uploading the log to mkr/bin</string>
     <!-- Alert slider proc nodes paths. -->
+    <string name="alert_slider_state_path"></string>
+    <string name="alert_slider_uevent_match_path"></string>
     <!-- Charging speed strings -->
     <string name="charging_speed">విద్యుదావేశ వేగం</string>
     <string name="charging_speed_slow">నెమ్మదిగా ఉంది</string>
