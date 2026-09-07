@@ -5,6 +5,8 @@
     <string name="url_copy_success">URL이 복사되었습니다</string>
     <string name="url_copy_failed">로그를 mkr/bin에 업로드하는 중 오류가 발생했습니다</string>
     <!-- Alert slider proc nodes paths. -->
+    <string name="alert_slider_state_path"></string>
+    <string name="alert_slider_uevent_match_path"></string>
     <!-- Charging speed strings -->
     <string name="charging_speed">충전 속도</string>
     <string name="charging_speed_slow">느림</string>
